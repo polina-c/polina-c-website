@@ -22,9 +22,9 @@ class _Screen extends StatelessWidget {
           children: [
             _Text1(),
             AppImage(300, 'images/polina.jpeg'),
-            _Text2(),
           ],
         ),
+        _Text2(),
       ],
     );
   }
