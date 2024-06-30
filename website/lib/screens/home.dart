@@ -21,7 +21,7 @@ class _Screen extends StatelessWidget {
           crossAxisAlignment: WrapCrossAlignment.center,
           children: [
             _Text1(),
-            AppImage(300, 'images/polina.jpeg'),
+            AppImage(300, 'images/polina.jpg'),
           ],
         ),
         _Text2(),

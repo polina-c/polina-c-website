@@ -2,13 +2,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hc_web/shared/design/theme.dart';
 
-import '../bricks/text.dart';
-import '../bricks/utils.dart';
 import '../design/border.dart';
 import 'screen.dart';
-import '../design/styles.dart';
 
-const _version = 11;
+const _version = 'version 1';
 
 class AppScaffold extends StatefulWidget {
   const AppScaffold(

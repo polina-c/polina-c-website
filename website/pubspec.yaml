@@ -26,7 +26,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/logo.png
-    - assets/images/polina.jpeg
+    - assets/images/polina.jpg
 
 flutter_launcher_icons:
   web:
