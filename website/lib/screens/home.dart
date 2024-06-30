@@ -65,12 +65,9 @@ and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_
 I am highly interested in the adoption of [Flutter](https://flutter.dev) as I believe
 this simple and powerful UI language unleashes
 creativity in many ways and thus makes this world easier and
-more beautiful.
-
-If you have minimal programming experience,
-want to create a beautiful mobile app or web site,
-and do not know where to start,
-ping me and I will help you with no charge.
+more beautiful. Let me know if you need help using Flutter.
+I will help you. Or, I can create site like this for you in exchange with
+what you are offering.
 
 ## Energy Practices
 
@@ -82,10 +79,16 @@ and [Open Field Language](http://open-field-language.com).
 I own a condo on Moloka’i beach, good for time off, remote work, sabbaticals, and retreats.
 
 ## Profiles
+
 [GitHub](https://github.com/polina-c),
 [StackOverflow](https://stackoverflow.com/users/3312025/polina-c),
+[Facebook](https://www.facebook.com/polina.cherkasova).
+
+## Contact me
+
 [Telegram](http://t.me/polina_314159), [Facebook](https://www.facebook.com/polina.cherkasova),
 [Twitter](https://twitter.com/PolinaLinaC), [Instagram](https://www.instagram.com/polinach1).
+
 
 '''),
     );
