@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "website, experiments",
+            "cwd": "website",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define",
+                "experiments=true",
+            ],
+        },
+        {
+            "name": "website",
+            "cwd": "website",
+            "request": "launch",
+            "type": "dart"
+        },
+    ]
+}

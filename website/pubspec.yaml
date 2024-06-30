@@ -1,0 +1,36 @@
+name: hc_web
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0-82.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_markdown: ^0.7.1
+  url_launcher: ^6.2.6
+  google_fonts:  ^6.2.1
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  # See https://github.com/pichillilorenzo/flutter_inappwebview/issues/1468#issuecomment-2002170180
+  flutter_inappwebview_web: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  dart_flutter_team_lints: ^2.1.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/polina.jpeg
+
+flutter_launcher_icons:
+  web:
+    generate: true
+    image_path: "assets/images/logo.png"
+    background_color: "#FFFFFF"
+    theme_color: "#FFC107"
