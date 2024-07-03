@@ -62,21 +62,15 @@ I am a member of the [Flutter](https://flutter.dev) team, creator of
 [LayerLens](https://pub.dev/packages/layerlens)
 and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_tracking/OVERVIEW.md).
 
-I am highly interested in the adoption of [Flutter](https://flutter.dev) as I believe
+I am highly interested in spread of [Flutter](https://flutter.dev) as I believe
 this simple and powerful UI language unleashes
 creativity in many ways and thus makes this world easier and
 more beautiful. Let me know if you need help using Flutter.
-I will help you. Or, I can create site like this for you in exchange with
-what you are offering.
 
 ## Energy Practices
 
 Student in [Open Field Institute](https://openfield.ru), creator of [Happy Creek](https://happy-creek.com)
 and [Open Field Language](http://open-field-language.com).
-
-## Hawaii Host
-
-I own a condo on Moloka’i beach, good for time off, remote work, sabbaticals, and retreats.
 
 ## Profiles
 

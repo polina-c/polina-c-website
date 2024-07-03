@@ -5,7 +5,7 @@ import 'package:hc_web/shared/design/theme.dart';
 import '../design/border.dart';
 import 'screen.dart';
 
-const _version = 'version 1';
+const _version = 'version 5';
 
 class AppScaffold extends StatefulWidget {
   const AppScaffold(
@@ -34,6 +34,10 @@ class _AppScaffoldState extends State<AppScaffold>
       ),
       child: Scaffold(
         appBar: AppBar(
+          // These two properties below define how app bar behaves when user scrolls.
+          shadowColor: Colors.blueAccent,
+          scrolledUnderElevation: 2,
+          // These two properties above define how app bar behaves when user scrolls.
           title: Column(
             children: [
               Underlined(
@@ -72,7 +76,6 @@ class _AppScaffoldState extends State<AppScaffold>
                 Container(
                   width: screenWidth,
                   height: 600,
-                  //color: AppColors.bottom,
                   alignment: Alignment.bottomCenter,
                   child: Text(
                     '${defaultTargetPlatform.name}, $_version',
