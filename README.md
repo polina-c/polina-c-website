@@ -1,4 +1,4 @@
-# Polina C
+# [Polina C](https://polina-c.com/)
 
 ## Overview
 
