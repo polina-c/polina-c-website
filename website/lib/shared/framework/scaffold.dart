@@ -1,12 +1,11 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:website/shared/bricks/text.dart';
 import '../../shared/design/theme.dart';
 
 import '../design/border.dart';
 import 'screen.dart';
 
-const _version = 'version 1';
+const _version = 'version 2';
 
 class AppScaffold extends StatefulWidget {
   const AppScaffold(
@@ -49,11 +48,14 @@ class _AppScaffoldState extends State<AppScaffold>
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           SizedBox(
-                              width: 25,
-                              child: Image.asset('assets/images/logo.png')),
+                            width: 25,
+                            child: Image.asset('assets/images/logo.png'),
+                          ),
                           const SizedBox(width: 8),
-                          Text('Vital Synergy',
-                              style: TextStyle(fontWeight: FontWeight.bold)),
+                          Text(
+                            'Vital Synergy',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
                         ],
                       ),
                     ),
