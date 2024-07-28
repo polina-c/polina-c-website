@@ -5,7 +5,7 @@ class AppColors {
   static const text = Color.fromARGB(255, 41, 4, 63);
   static const border = text;
   static final logo = Colors.pink.shade500;
-  static final bottom = const Color(0xFF00CCFF);
+  static final bottom = card;
 
   static const primary = Colors.teal; // #FFC107
   static const background = Colors.white;

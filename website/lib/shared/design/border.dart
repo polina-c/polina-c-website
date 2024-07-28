@@ -20,7 +20,7 @@ class RoundBorder extends StatelessWidget {
       clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: AppColors.border, width: Sizes.border),
+        // border: Border.all(color: AppColors.border, width: Sizes.border),
       ),
       child: child,
     );

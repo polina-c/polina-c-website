@@ -57,19 +57,20 @@ class _Text2 extends StatelessWidget {
 
 ## Software Engineering
 
-I am a member of the [Flutter](https://flutter.dev) team, creator of
+I am a proud member of the [Flutter](https://flutter.dev) team, creator of
 [Flutter Chat](http://flutter-chat.dav),
 [LayerLens](https://pub.dev/packages/layerlens)
 and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_tracking/OVERVIEW.md).
 
-I am highly interested in spread of [Flutter](https://flutter.dev) as I believe
-this simple and powerful UI language unleashes
-creativity in many ways and thus makes this world easier and
-more beautiful. Let me know if you need help using Flutter.
+[Flutter](https://flutter.dev) is a programming language designed to
+create beautiful UI in a simple and easy to understand way.
+I am highly interested in popularizing Flutter,
+so feel free to reach out if you need help using it.
 
 ## Energy Practices
 
-Student in [Open Field Institute](https://openfield.ru), creator of [Happy Creek](https://happy-creek.com)
+Student in [Open Field Institute](https://openfield.ru),
+creator of [Happy Creek](https://happy-creek.com)
 and [Open Field Language](http://open-field-language.com).
 
 ## Profiles
