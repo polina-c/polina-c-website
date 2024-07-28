@@ -1,22 +1,18 @@
-# [Polina C](https://polina-c.com/)
+# [Vital Synergy](https://vitalsynergyoregon.com)
 
 ## Overview
 
-This repo contains source code for http://polina-c.com.
-
-Feel free to use it as a scaffold/boilerplate for a Flutter web site.
+This repo contains source code for https://vitalsynergyoregon.com/.
 
 ## Web Site
 
 ### Hosting
 
-To deploy code to https://polina-c.web.app/ (aka http://polin-c.com):
+To deploy code to site:
 
 ```
 firebase deploy
 ```
-
-Project: https://console.firebase.google.com/project/polina-c/hosting/sites/polina-c
 
 ### Generate icon
 

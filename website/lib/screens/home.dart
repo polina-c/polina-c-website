@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hc_web/shared/bricks/layout.dart';
 
+import '../shared/bricks/layout.dart';
 import '../shared/bricks/image.dart';
 import '../shared/bricks/text.dart';
 import '../shared/framework/screen.dart';
@@ -15,16 +15,36 @@ class _Screen extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Wrap(
-          alignment: WrapAlignment.center,
-          runAlignment: WrapAlignment.center,
-          crossAxisAlignment: WrapCrossAlignment.center,
+        SizedBox(height: 20),
+        Row(
+          // alignment: WrapAlignment.center,
+          // runAlignment: WrapAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            AppImage(
+              200,
+              'images/logo_large.jpg',
+              border: false,
+            ),
+            SizedBox(width: 20),
             _Text1(),
-            AppImage(300, 'images/polina.jpg'),
           ],
         ),
-        _Text2(),
+        SizedBox(height: 20),
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            _Text2(),
+            AppImage(
+              200,
+              'images/portrait.jpg',
+            ),
+          ],
+        ),
+        SizedBox(height: 20),
+        _Text3(),
       ],
     );
   }
@@ -38,10 +58,12 @@ class _Text1 extends StatelessWidget {
     return AppColumn(
       width: 300,
       child: AppMarkdown('''
-# Hello, I'm Polina!
+# Hello, I'm Anna (Anya) Brilts!
 
-I am a software engineer, curious about energy practices, and mom of grown children.
-I am from Saint Petersburg, Russia, currently living in Kirkland WA, US.
+I graduated with a master's degree in psychology at The
+Moscow City Pedagogical University in 2001 and started my
+professional practice in this pursuit.
+
 '''),
     );
   }
@@ -53,38 +75,62 @@ class _Text2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppColumn(
+      width: 300,
       child: AppMarkdown('''
+Working with people
+as a **psychologist**, I felt the need to expand my studies
+into **bodywork** to make my skill set more effective.
+Further, I studied and started working in the
+field of holistic **massage** technique in Russia and Poland.
+'''),
+    );
+  }
+}
 
-## Software Engineering
+class _Text3 extends StatelessWidget {
+  const _Text3();
 
-I am a member of the [Flutter](https://flutter.dev) team, creator of
-[Flutter Chat](http://flutter-chat.dav),
-[LayerLens](https://pub.dev/packages/layerlens)
-and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_tracking/OVERVIEW.md).
+  @override
+  Widget build(BuildContext context) {
+    return AppColumn(
+      child: AppMarkdown(
+        '''
+In 2018, I moved to the US with my family, and in 2024 I graduated
+The Ashland Institute of Massage, becoming a **licensed massage therapist**.
 
-I am highly interested in spread of [Flutter](https://flutter.dev) as I believe
-this simple and powerful UI language unleashes
-creativity in many ways and thus makes this world easier and
-more beautiful. Let me know if you need help using Flutter.
+At this point, my professional experience with supporting people as
+a helping practitioner adds up to **over 20 years**.
+During this time, I have organized and hosted multiple
+types of group and individual events focusing on **body practice**.
 
-## Energy Practices
+Currently, I am starting my career as an LMT (licensed massage therapist),
+in Ashland, OR. I mostly work in the following modalities:
 
-Student in [Open Field Institute](https://openfield.ru), creator of [Happy Creek](https://happy-creek.com)
-and [Open Field Language](http://open-field-language.com).
+&nbsp;
 
-## Profiles
+* Holistic Japanese (Kobido) massage
+* Abdominal massage
+* Mexican Rebozo massage
+* Miofascial release (MFR)
+* Cupping
+* swaddling ceremony
+* banya (Russian sauna) ceremony
 
-[GitHub](https://github.com/polina-c),
-[StackOverflow](https://stackoverflow.com/users/3312025/polina-c),
-[Facebook](https://www.facebook.com/polina.cherkasova).
+&nbsp;
+
+In 2022, I completed multiple programs of psychological consultation in Moscow,
+such as **cognitive-behavioral therapy (CBT)** and **emotional-image therapy**.
+I still continue my personal consultation as a
+life coach and helping practitioner.
+
+&nbsp;
 
 ## Contact me
 
-[Telegram](http://t.me/polina_314159), [Facebook](https://www.facebook.com/polina.cherkasova),
-[Twitter](https://twitter.com/PolinaLinaC), [Instagram](https://www.instagram.com/polinach1).
-
-
-'''),
+* [Facebook](https://www.facebook.com/profile.php?id=100012951335128)
+* [Telegram](https://t.me/aura_kobido)
+''',
+      ),
     );
   }
 }

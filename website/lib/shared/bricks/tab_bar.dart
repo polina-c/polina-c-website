@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hc_web/shared/design/styles.dart';
 
+import '../../shared/design/styles.dart';
 import '../design/theme.dart';
 
 class AppTabBar extends StatelessWidget {

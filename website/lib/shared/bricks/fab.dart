@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hc_web/shared/bricks/text.dart';
 
+import '../../shared/bricks/text.dart';
 import '../design/styles.dart';
 
 /// A floating action button.

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:hc_web/shared/design/theme.dart';
+import '../../shared/design/theme.dart';
 
 import 'border.dart';
 
