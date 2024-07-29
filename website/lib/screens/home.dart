@@ -16,11 +16,9 @@ class _Screen extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         SizedBox(height: 20),
-        Row(
-          // alignment: WrapAlignment.center,
-          // runAlignment: WrapAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.center,
+        Wrap(
+          alignment: WrapAlignment.center,
+          runAlignment: WrapAlignment.center,
           children: [
             AppImage(
               200,
@@ -32,13 +30,13 @@ class _Screen extends StatelessWidget {
           ],
         ),
         SizedBox(height: 20),
-        Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.center,
+        Wrap(
+          alignment: WrapAlignment.center,
+          runAlignment: WrapAlignment.center,
           children: [
             _Text2(),
             AppImage(
-              200,
+              250,
               'images/portrait.jpg',
             ),
           ],
