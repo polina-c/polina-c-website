@@ -1,10 +1,4 @@
 { pkgs, ... }: {
-
-  # NOTE: This is an excerpt of a complete Nix configuration example.
-  # For more information about the dev.nix file in IDX, see
-  # https://developers.google.com/idx/guides/customize-idx-env
-
-  # Enable previews and customize configuration
   idx.previews = {
     enable = true;
     previews = {
