@@ -5,7 +5,7 @@ import '../../shared/design/theme.dart';
 import '../design/border.dart';
 import 'screen.dart';
 
-const _version = 'version 3';
+const _version = 'version 4';
 
 class AppScaffold extends StatefulWidget {
   const AppScaffold(
