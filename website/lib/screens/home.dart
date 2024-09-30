@@ -71,18 +71,20 @@ so feel free to reach out if you need help using it.
 
 Student in [Open Field Institute](https://openfield.ru),
 creator of [Happy Creek](https://happy-creek.com)
-and [Open Field Language](http://open-field-language.com).
+and [Open Field Theory](http://open-field-language.com).
 
-## Profiles
+## Hawaii Host
 
-[GitHub](https://github.com/polina-c),
-[StackOverflow](https://stackoverflow.com/users/3312025/polina-c),
-[Facebook](https://www.facebook.com/polina.cherkasova).
+Become my guest on [West Molokai](http://airbnb.com/h/polina).
+Contact me directly to save on fees.
 
-## Contact me
+## Connect with me
 
+[Facebook](https://www.facebook.com/polina.cherkasova),
 [Telegram](http://t.me/polina_314159), [Facebook](https://www.facebook.com/polina.cherkasova),
-[Twitter](https://twitter.com/PolinaLinaC), [Instagram](https://www.instagram.com/polinach1).
+[Twitter](https://twitter.com/PolinaLinaC), [Instagram](https://www.instagram.com/polinach1),
+[GitHub](https://github.com/polina-c),
+[StackOverflow](https://stackoverflow.com/users/3312025/polina-c).
 
 
 '''),
