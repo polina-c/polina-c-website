@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:hc_web/shared/design/theme.dart';
 
 import 'border.dart';
+import 'theme.dart';
 
 enum AppBarTypes {
   title,
@@ -89,7 +89,7 @@ final markdownStyleSheet = MarkdownStyleSheet(
   //   fontSize: FontSizes.body - 2,
   //   fontWeight: FontWeight.bold,
   // ),
-  p: TextStyle(
+  p: const TextStyle(
     fontSize: FontSizes.body,
     color: AppColors.text,
   ),

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:hc_web/shared/design/border.dart';
+import '../design/border.dart';
 
 import 'utils.dart';
 
 class AppImage extends StatelessWidget {
   AppImage(this.width, String path) {
-    this.path = '${imagePath}$path';
+    this.path = '$imagePath$path';
   }
 
   final double width;

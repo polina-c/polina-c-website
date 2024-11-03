@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hc_web/shared/bricks/text.dart';
 
 import '../design/styles.dart';
+import 'text.dart';
 
 /// A floating action button.
 class Fab extends StatelessWidget {
@@ -24,7 +24,7 @@ class Fab extends StatelessWidget {
         children: [
           if (question != null) ...[
             AppText(question!),
-            SizedBox(
+            const SizedBox(
               width: 20,
             ),
           ],

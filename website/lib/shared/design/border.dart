@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hc_web/shared/design/theme.dart';
+import 'theme.dart';
 
 final borderedShape = RoundedRectangleBorder(
   borderRadius: BorderRadius.circular(18.0),
-  side: BorderSide(
+  side: const BorderSide(
     color: AppColors.border,
     width: Sizes.border,
   ),

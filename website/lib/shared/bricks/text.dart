@@ -29,7 +29,8 @@ class AppMarkdown extends StatelessWidget {
 
   final String content;
 
-  /// Converts relative URLs (from AppRoutes) to string to be referenced in markup text.
+  /// Converts relative URLs (from AppRoutes) to string to be referenced
+  /// in markup text.
   static String redirect(String url) {
     assert(url.startsWith('/'));
     return '#$url';
@@ -39,7 +40,8 @@ class AppMarkdown extends StatelessWidget {
   Widget build(BuildContext context) {
     return Markdown(
       selectable: true,
-      physics: ScrollPhysics(), // To prevent scroll on drag in mobile Safary.
+      // To prevent scroll on drag in mobile Safary.
+      physics: const ScrollPhysics(),
       data: content,
       shrinkWrap: true,
 

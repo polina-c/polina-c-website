@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'shared/design/theme.dart';
 import 'screens/home.dart';
-import 'shared/framework/screen.dart';
+import 'shared/design/theme.dart';
 import 'shared/framework/scaffold.dart';
+import 'shared/framework/screen.dart';
 
 const _homeRoute = '/';
 

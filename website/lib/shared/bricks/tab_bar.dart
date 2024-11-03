@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hc_web/shared/design/styles.dart';
+import '../design/styles.dart';
 
 import '../design/theme.dart';
 
@@ -26,7 +26,7 @@ class AppTabBar extends StatelessWidget {
     return TabBar(
       controller: controller,
       labelStyle: textStyle ?? AppTextStyles.tab(context),
-      unselectedLabelStyle: TextStyle(fontWeight: FontWeight.normal),
+      unselectedLabelStyle: const TextStyle(fontWeight: FontWeight.normal),
       dividerColor: showDivider ? AppColors.divider : AppColors.background,
       indicatorWeight: 4,
       indicatorColor: indicatorColor ?? AppColors.background,

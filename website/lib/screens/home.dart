@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:hc_web/shared/bricks/layout.dart';
 
 import '../shared/bricks/image.dart';
+import '../shared/bricks/layout.dart';
 import '../shared/bricks/text.dart';
 import '../shared/framework/screen.dart';
 
-late final homeScreen = AppScreen((_) => const _Screen());
+final homeScreen = AppScreen((_) => const _Screen());
 
 class _Screen extends StatelessWidget {
   const _Screen();
@@ -20,11 +20,11 @@ class _Screen extends StatelessWidget {
           runAlignment: WrapAlignment.center,
           crossAxisAlignment: WrapCrossAlignment.center,
           children: [
-            _Text1(),
+            const _Text1(),
             AppImage(300, 'images/polina.jpg'),
           ],
         ),
-        _Text2(),
+        const _Text2(),
       ],
     );
   }
@@ -35,7 +35,7 @@ class _Text1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppColumn(
+    return const AppColumn(
       width: 300,
       child: AppMarkdown('''
 # Hello, I'm Polina!
@@ -52,7 +52,7 @@ class _Text2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppColumn(
+    return const AppColumn(
       child: AppMarkdown('''
 
 ## Software Engineering
@@ -67,15 +67,17 @@ create beautiful UI in a simple and easy to understand way.
 I am highly interested in popularizing Flutter,
 so feel free to reach out if you need help using it.
 
-## Energy Practices
+## Energy Practitioner
 
-Student in [Open Field Institute](https://openfield.ru),
-creator of [Happy Creek](https://happy-creek.com)
-and [Open Field Theory](http://open-field-language.com).
+* Constellation facilitator and field therapist
+* Student in [Open Field Institute](https://openfield.ru)
+* Creator of [Happy Creek](https://happy-creek.com)
+* Creator of [Open Field Theory Overview](http://open-field-language.com)
 
 ## Hawaii Host
 
-Become my guest on [West Molokai](http://airbnb.com/h/polina).
+My second home is in [Hawaii, West Molokai](http://airbnb.com/h/polina).
+I am inviting you to rent my place when I am on big island.
 Contact me directly to save on fees.
 
 ## Connect with me

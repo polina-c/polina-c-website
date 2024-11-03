@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:hc_web/shared/design/theme.dart';
 
 import '../design/border.dart';
+import '../design/theme.dart';
 import 'screen.dart';
 
 const _version = 'version 5';
@@ -26,18 +26,20 @@ class _AppScaffoldState extends State<AppScaffold>
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
-    return new DefaultTextStyle(
-      style: new TextStyle(
+    return DefaultTextStyle(
+      style: const TextStyle(
         inherit: true,
         fontSize: FontSizes.body,
         color: AppColors.text,
       ),
       child: Scaffold(
         appBar: AppBar(
-          // These two properties below define how app bar behaves when user scrolls.
+          // These two properties below define how app
+          // bar behaves when user scrolls.
           shadowColor: Colors.blueAccent,
           scrolledUnderElevation: 2,
-          // These two properties above define how app bar behaves when user scrolls.
+          // These two properties above define how app
+          //bar behaves when user scrolls.
           title: Column(
             children: [
               Underlined(
@@ -48,11 +50,11 @@ class _AppScaffoldState extends State<AppScaffold>
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           ImageIcon(
-                            AssetImage('assets/images/logo.png'),
+                            const AssetImage('assets/images/logo.png'),
                             color: AppColors.logo,
                           ),
                           const SizedBox(width: 8),
-                          Text('Polina Cherkasova'),
+                          const Text('Polina Cherkasova'),
                         ],
                       ),
                     ),
