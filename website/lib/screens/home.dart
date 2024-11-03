@@ -77,8 +77,8 @@ so feel free to reach out if you need help using it.
 ## Hawaii Host
 
 My second home is in [Hawaii, West Molokai](http://airbnb.com/h/polina).
-I am inviting you to rent my place when I am on big island.
-Contact me directly to save on fees.
+
+Rent my place when I am on big land (Contact me directly to save on fees).
 
 ## Connect with me
 
