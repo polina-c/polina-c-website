@@ -40,7 +40,7 @@ class _Text1 extends StatelessWidget {
       child: AppMarkdown('''
 # Hello, I'm Polina!
 
-I am a software engineer, curious about energy practices, and mom of grown children.
+I am a software engineer, energy practitioner, and mom of grown children.
 I am from Saint Petersburg, Russia, currently living in Kirkland WA, US.
 '''),
     );
@@ -55,7 +55,7 @@ class _Text2 extends StatelessWidget {
     return const AppColumn(
       child: AppMarkdown('''
 
-## Software Engineering
+## Software Engineer
 
 I am a proud member of the [Flutter](https://flutter.dev) team, creator of
 [Flutter Chat](http://flutter-chat.dav),
@@ -63,7 +63,7 @@ I am a proud member of the [Flutter](https://flutter.dev) team, creator of
 and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_tracking/OVERVIEW.md).
 
 [Flutter](https://flutter.dev) is a programming language designed to
-create beautiful UI in a simple and easy to understand way.
+create **beautiful UI** in a simple and easy to understand way.
 I am highly interested in popularizing Flutter,
 so feel free to reach out if you need help using it.
 
@@ -72,13 +72,41 @@ so feel free to reach out if you need help using it.
 * Constellation facilitator and field therapist
 * Student in [Open Field Institute](https://openfield.ru)
 * Creator of [Happy Creek](https://happy-creek.com)
-* Creator of [Open Field Theory Overview](http://open-field-language.com)
+* Life mirror
+
+## Life Mirror
+
+You can schedule a life mirroring session with me.
+
+Sometimes things are **clear**: We know our goals and how to achieve them.
+It is just a matter of time.
+
+Sometimes things are **foggy**: We are lost. Or we feel we could move
+faster, with less friction. And we suspect we may have blind spots.
+
+We may want to look at our life in a mirror, to catch details
+that we normally do not see.
+
+It is good to have a pool of people (life mirrors?) to whom we can say,
+“I have ambitious goals. And I am facing challenges achieving them.
+I want to **move faster and easier**. Could you please become my mirror,
+and help me extend my perspective, so that I could see more?”
+
+Mirrors may alter our
+perspective of reality significantly,
+through the lens of their experience and beliefs.
+If we can **differentiate reflections
+from reality**, the reflections may be **very helpful**.
+
+Consider adding me to your pool of life mirrors and schedule a
+mirroring session. The first one is free.
 
 ## Hawaii Host
 
 My second home is in [Hawaii, West Molokai](http://airbnb.com/h/polina).
 
-Rent my place when I am on big land (Contact me directly to save on fees).
+Consider **renting** my place when I am on big land
+(contact me directly to save on fees).
 
 ## Connect with me
 
