@@ -103,7 +103,7 @@ mirroring session. The first one is free.
 
 ## Hawaii Host
 
-My second home is in [Hawaii, West Molokai](http://airbnb.com/h/polina).
+My **second home** is in [Hawaii, West Molokai](http://airbnb.com/h/polina).
 
 Consider **renting** my place when I am on big land
 (contact me directly to save on fees).
