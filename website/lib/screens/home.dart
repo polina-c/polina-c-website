@@ -96,8 +96,8 @@ and help me extend my perspective, so that I could see more?”
 Mirrors may alter our
 perspective of reality significantly,
 through the lens of their experience and beliefs.
-If we can **differentiate reflections
-from reality**, the reflections may be **very helpful**.
+If we **differentiate reflections
+from reality**, the reflections may become **very helpful**.
 
 Consider adding me to your **pool of life mirrors** and schedule a
 mirroring session. The first one is free.
