@@ -78,7 +78,8 @@ so feel free to reach out if you need help using it.
 
 You can schedule a life mirroring session with me.
 
-Sometimes things are **clear**: We know our goals and how to achieve them.
+Sometimes things are **clear**: We know **what we want**
+and how to get there.
 It is just a matter of time.
 
 Sometimes things are **foggy**: We are lost. Or we feel we could move
