@@ -98,7 +98,7 @@ through the lens of their experience and beliefs.
 If we can **differentiate reflections
 from reality**, the reflections may be **very helpful**.
 
-Consider adding me to your pool of life mirrors and schedule a
+Consider adding me to your **pool of life mirrors** and schedule a
 mirroring session. The first one is free.
 
 ## Hawaii Host
