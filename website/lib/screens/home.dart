@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/link.dart';
 
 import '../shared/bricks/image.dart';
 import '../shared/bricks/layout.dart';
 import '../shared/bricks/text.dart';
+import '../shared/bricks/utils.dart';
 import '../shared/content/contacts.dart';
 import '../shared/framework/app_structure.dart';
 
@@ -54,7 +56,7 @@ class _Text2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppColumn(
+    return const AppColumn(
       child: AppMarkdown('''
 
 ## Software Engineer
@@ -109,7 +111,7 @@ mirroring session. The first one is free.
 My **second home** is in Hawaii, West Molokai.
 Consider **renting** my place when I am on big land.
 
-Find details [here](${AppMarkdown.redirect(AppRoutes.molokai)}).
+Find details [here](${AppRoutes.molokai}).
 '''),
     );
   }

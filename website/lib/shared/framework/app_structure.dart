@@ -18,7 +18,3 @@ class AppMenuItem {
   final String route;
   final String label;
 }
-
-void push(String route, BuildContext context) {
-  Navigator.of(context).pushNamed(route);
-}
