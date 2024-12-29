@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 
 import '../design/border.dart';
 import '../design/theme.dart';
-import 'screen.dart';
+import 'app_structure.dart';
 
-const _version = 'version 5';
+const _version = 'version 9';
 
 class AppScaffold extends StatefulWidget {
   const AppScaffold(
@@ -14,7 +14,7 @@ class AppScaffold extends StatefulWidget {
     super.key,
   });
 
-  final AppScreen screen;
+  final WidgetBuilder screen;
   final String route;
 
   @override
@@ -54,7 +54,13 @@ class _AppScaffoldState extends State<AppScaffold>
                             color: AppColors.logo,
                           ),
                           const SizedBox(width: 8),
-                          const Text('Polina Cherkasova'),
+                          if (widget.route == AppRoutes.home)
+                            const Text('Polina Cherkasova')
+                          else
+                            TextButton(
+                              onPressed: () => push(AppRoutes.home, context),
+                              child: const Text('Polina Cherkasova'),
+                            ),
                         ],
                       ),
                     ),
@@ -73,7 +79,7 @@ class _AppScaffoldState extends State<AppScaffold>
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 const SizedBox(height: 24),
-                widget.screen.content(context),
+                widget.screen(context),
                 const SizedBox(height: 200),
                 Container(
                   width: screenWidth,

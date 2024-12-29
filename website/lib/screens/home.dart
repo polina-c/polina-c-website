@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 import '../shared/bricks/image.dart';
 import '../shared/bricks/layout.dart';
 import '../shared/bricks/text.dart';
-import '../shared/framework/screen.dart';
+import '../shared/content/contacts.dart';
+import '../shared/framework/app_structure.dart';
 
-final homeScreen = AppScreen((_) => const _Screen());
+Widget homeScreen(BuildContext _) => const _Screen();
 
 class _Screen extends StatelessWidget {
   const _Screen();
@@ -25,6 +26,7 @@ class _Screen extends StatelessWidget {
           ],
         ),
         const _Text2(),
+        const Contacts(),
       ],
     );
   }
@@ -52,7 +54,7 @@ class _Text2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AppColumn(
+    return AppColumn(
       child: AppMarkdown('''
 
 ## Software Engineer
@@ -104,20 +106,10 @@ mirroring session. The first one is free.
 
 ## Hawaii Host
 
-My **second home** is in [Hawaii, West Molokai](http://airbnb.com/h/polina).
+My **second home** is in Hawaii, West Molokai.
+Consider **renting** my place when I am on big land.
 
-Consider **renting** my place when I am on big land
-(contact me directly to save on fees).
-
-## Connect with me
-
-[Facebook](https://www.facebook.com/polina.cherkasova),
-[Telegram](http://t.me/polina_314159), [Facebook](https://www.facebook.com/polina.cherkasova),
-[Twitter](https://twitter.com/PolinaLinaC), [Instagram](https://www.instagram.com/polinach1),
-[GitHub](https://github.com/polina-c),
-[StackOverflow](https://stackoverflow.com/users/3312025/polina-c).
-
-
+Find details [here](${AppMarkdown.redirect(AppRoutes.molokai)}).
 '''),
     );
   }
