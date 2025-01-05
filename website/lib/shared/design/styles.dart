@@ -67,16 +67,20 @@ final markdownStyleSheet = MarkdownStyleSheet(
     fontSize: FontSizes.body + 8,
     fontWeight: FontWeight.bold,
     fontFamily: Fonts.headers.fontFamily,
+    height: 2.5,
   ),
   h2: TextStyle(
     fontSize: FontSizes.body + 4,
     fontWeight: FontWeight.bold,
     fontFamily: Fonts.headers.fontFamily,
+    height: 4,
   ),
-  // h3: const TextStyle(
-  //   fontSize: FontSizes.body + 4,
-  //   fontWeight: FontWeight.bold,
-  // ),
+  h3: TextStyle(
+    fontSize: FontSizes.body + 2,
+    fontWeight: FontWeight.bold,
+    fontFamily: Fonts.headers.fontFamily,
+    height: 1.5,
+  ),
   // h4: const TextStyle(
   //   fontSize: FontSizes.body + 2,
   //   fontWeight: FontWeight.bold,

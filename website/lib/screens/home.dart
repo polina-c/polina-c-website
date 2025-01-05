@@ -104,14 +104,13 @@ If we **differentiate reflections
 from reality**, the reflections may become **very helpful**.
 
 Consider adding me to your **pool of life mirrors** and schedule a
-mirroring session. The first one is free.
+mirroring session. The introduction one is free.
 
 ## Hawaii Host
 
-My **second home** is in Hawaii, West Molokai.
-Consider **renting** my place when I am on big land.
+My **second home** is in Hawaii, West Molokai. **Rent it** while I am on big land!
 
-Find details [here](${AppRoutes.molokai}).
+It is **🔥 magical**! Find details [here](${AppRoutes.molokai}).
 '''),
     );
   }

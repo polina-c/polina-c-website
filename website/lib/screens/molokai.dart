@@ -47,7 +47,7 @@ class _Text1 extends StatelessWidget {
       child: AppMarkdown('''
 # Hawaii, West Molokai
 
-Consider renting my place when I am on big land:
+Rent my magical place when I am on big land:
 
 [airbnb.com/h/polina](http://airbnb.com/h/polina)
 
@@ -70,29 +70,41 @@ class _Text2 extends StatelessWidget {
 
 (let me know if I forgot something)
 
-## When waves are high
+## Good things to know:
 
-When waves are high it is safer to swim in these places (from the most to the least safe):
+* Most local stores to not sell alcohol. You can buy it in the [Kaunakakai town](https://maps.app.goo.gl/6ZgnvyNwkkbBjx87A) or [Kualapuu Market](https://maps.app.goo.gl/gHnMsayZwsc9X7vR8).
 
-* [Near Manae Goods and Grinds, very tasty food](https://maps.app.goo.gl/HH2NF5gwU2bjAtoN8)
-* [Kaunalā Beach, you can meet many cats here](https://maps.app.goo.gl/nx6uwWqR7XYin2Mm8)
-* [Po‘Olau Beach, 30 min hike from my place](https://maps.app.goo.gl/7Q6Q6Q7Q6Q6Q6Q6Q6)
+## When waves are high:
 
-## Fun things to do
+When waves are high it is safer to swim in other places:
 
-* Fishing, with no license
+* 🐈‍⬛ 🐈 🐈‍⬛ [Kaunalā Beach](https://maps.app.goo.gl/nx6uwWqR7XYin2Mm8) (you may meet many cats here)
+* Places near 🥗 [Manae Goods and Grinds](https://maps.app.goo.gl/HH2NF5gwU2bjAtoN8):
+    * 🪨 [sand and rocks](https://maps.app.goo.gl/McHZJQzQ673w3JcN6)
+    * 🛶 [with boat launch](https://maps.app.goo.gl/QpsApe7Jh7K8U1xr7)
+    * [20 miles beach](https://maps.app.goo.gl/L3WR1pLmKghHWHUo7)
+* [Facing Maui](https://maps.app.goo.gl/E8QdtwifJktByqvw6)
+* [East end](https://maps.app.goo.gl/ZsiPjDyxk2pqb6hu7)
+
+## Fun things to do:
+
+* Fishing in ocean, with no license
 * Hiking, there ar many trails around
+* Surfing
+* Pickup coconuts on the beach and open with tools located in living room
 * Guided tour with [Molokai Outdoors](http://www.molokaioutdoors.com)
 * Diving, snorkeling, fishing and whale watching with [Molokai Fish and Dive](https://molokaifishanddive.net/)
-* Nails with Jazzi Fresh, 808-213-4129
-* Amazing live music every night at [Hero's Ohana Grill](https://www.hirosohanagrill.com/),
+* Amazing live music every night, except Mondays, at [Hero's Ohana Grill](https://www.hirosohanagrill.com/),
   with special music on happy hour every Friday 3:30-5:30
-* Farmers market 9-12 on Saturdays [near the church](https://maps.app.goo.gl/dTsH2cW4qxZg5Qsd6)
+* Farmers market 9-12 on Saturdays near the [church](https://maps.app.goo.gl/dTsH2cW4qxZg5Qsd6)
 * Practice hula dance on Thursdays 5pm at [Home Pumehana](https://maps.app.goo.gl/wTPB1tigwGe6s9TF8)
 * Paddle an outrigger canoe on Thursdays
-  7:15am-8:30am with [here](https://maps.app.goo.gl/7A6cSYrKSzKsA5Pn9), 808-553-8018, molokaiwaa@gmail.com
+  7:15am-8:30am [here](https://maps.app.goo.gl/7A6cSYrKSzKsA5Pn9), 808-553-8018, molokaiwaa@gmail.com
+* Enjoy Dave's ice cream at [Kamoi Snack-n-Go](https://maps.app.goo.gl/KVWzH8Ejtv9LQ7mAA)
+* Play or learn to play guitar, located in living room
+* Nails with Jazzi Fresh, 808-213-4129
 
-## Transportation
+## Transportation:
 
 * Molokai taxi: +1 (808) 336-0967
 * Butch, shuttle: +1 (989) 858-0795
@@ -102,7 +114,6 @@ When waves are high it is safer to swim in these places (from the most to the le
   so you can go any direction
 * [Discount Hawaii Car Rental](https://www.discounthawaiicarrental.com/)
 * Fly to other island with [Mokulele Airlines](https://www.mokuleleairlines.com/)
-
 '''),
     );
   }
