@@ -62,6 +62,11 @@ I graduated with a master's degree in psychology at The
 Moscow City Pedagogical University in 2001 and started my
 professional practice in this pursuit.
 
+In 2022, I completed multiple programs of psychological consultation in Moscow,
+such as **cognitive-behavioral therapy (CBT)** and **emotional-image therapy**.
+I still continue my personal consultation as a
+life coach and helping practitioner.
+
 '''),
     );
   }
@@ -94,32 +99,25 @@ class _Text3 extends StatelessWidget {
       child: AppMarkdown(
         '''
 In 2018, I moved to the US with my family, and in 2024 I graduated
-The Ashland Institute of Massage, becoming a **licensed massage therapist**.
+The Ashland Institute of Massage and got a license as a massage therapist (LMT #28491).
 
 At this point, my professional experience with supporting people as
 a helping practitioner adds up to **over 20 years**.
 During this time, I have organized and hosted multiple
 types of group and individual events focusing on **body practice**.
 
-Currently, I am starting my career as an LMT (licensed massage therapist),
-in Ashland, OR. I mostly work in the following modalities:
+Currently, I am working as an LMT in Syskyou Massage clinic and also as a private practitioner in Ashland, OR.
+I primarily work in the following modalities:
 
 &nbsp;
 
-* Holistic Japanese (Kobido) massage
+* Holistic Japanese Kobido massage - face and body
 * Abdominal massage
 * Mexican Rebozo massage
 * Miofascial release (MFR)
 * Cupping
-* swaddling ceremony
-* banya (Russian sauna) ceremony
-
-&nbsp;
-
-In 2022, I completed multiple programs of psychological consultation in Moscow,
-such as **cognitive-behavioral therapy (CBT)** and **emotional-image therapy**.
-I still continue my personal consultation as a
-life coach and helping practitioner.
+* Swaddling ceremony for adults ("bone closing") - transition ceremony
+* Banya (Russian sauna) ceremony
 
 &nbsp;
 
