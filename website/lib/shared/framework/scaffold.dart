@@ -5,14 +5,10 @@ import '../../shared/design/theme.dart';
 import '../design/border.dart';
 import 'screen.dart';
 
-const _version = 'version 1';
+const _version = 'version 2';
 
 class AppScaffold extends StatefulWidget {
-  const AppScaffold(
-    this.route,
-    this.screen, {
-    super.key,
-  });
+  const AppScaffold(this.route, this.screen, {super.key});
 
   final AppScreen screen;
   final String route;
@@ -80,15 +76,10 @@ class _AppScaffoldState extends State<AppScaffold>
                   width: screenWidth,
                   height: 600,
                   alignment: Alignment.bottomCenter,
-                  child: Text(
-                    '${defaultTargetPlatform.name}, $_version',
-                  ),
+                  child: Text('${defaultTargetPlatform.name}, $_version'),
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: [
-                        AppColors.background,
-                        AppColors.bottom,
-                      ],
+                      colors: [AppColors.background, AppColors.bottom],
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
                       stops: [0.0, 1.0],
