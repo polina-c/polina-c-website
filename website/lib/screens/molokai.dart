@@ -72,7 +72,11 @@ class _Text2 extends StatelessWidget {
 
 ## Good things to know:
 
-* Most local stores to not sell alcohol. You can buy it in the [Kaunakakai town](https://maps.app.goo.gl/6ZgnvyNwkkbBjx87A) or [Kualapuu Market](https://maps.app.goo.gl/gHnMsayZwsc9X7vR8).
+* Fuel your car before you are at the bottom of your tank, because there are only two gas
+stations on the island, and they may be closed unexpectedly.
+* Most local stores do not sell alcohol. You can buy it in
+the [Kaunakakai town](https://maps.app.goo.gl/6ZgnvyNwkkbBjx87A)
+or [Kualapuu Market](https://maps.app.goo.gl/gHnMsayZwsc9X7vR8).
 
 ## When waves are high:
 
