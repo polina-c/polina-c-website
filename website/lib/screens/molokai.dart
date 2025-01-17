@@ -49,9 +49,7 @@ class _Text1 extends StatelessWidget {
 
 Rent my magical place when I am on big land:
 
-[airbnb.com/h/polina](http://airbnb.com/h/polina)
-
-(contact me directly to save on fees)
+[airbnb.com/h/polina](http://airbnb.com/h/polina).
 
 '''),
     );

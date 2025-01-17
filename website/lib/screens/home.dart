@@ -103,8 +103,8 @@ through the lens of their experience and beliefs.
 If we **differentiate reflections
 from reality**, the reflections may become **very helpful**.
 
-Consider adding me to your **pool of life mirrors** and schedule a
-mirroring session. The introduction one is free.
+I will be happy to be added to your **pool of life mirrors**
+and schedule a session for you when you need it.
 
 ## Hawaii Host
 
