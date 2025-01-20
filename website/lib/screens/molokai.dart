@@ -70,11 +70,21 @@ class _Text2 extends StatelessWidget {
 
 ## Good things to know:
 
-* Fuel your car before you are at the bottom of your tank, because there are only two gas
+*  Fuel your car before you are at the bottom of your tank, because there are only two gas
 stations on the island, and they may be closed unexpectedly.
-* Most local stores do not sell alcohol. You can buy it in
+*  Most local stores do not sell alcohol. You can buy it in
 the [Kaunakakai town](https://maps.app.goo.gl/6ZgnvyNwkkbBjx87A)
 or [Kualapuu Market](https://maps.app.goo.gl/gHnMsayZwsc9X7vR8).
+*  Tap water is clean and tasty here. Just enjoy it.
+*  Cell phone reception is on and off here. Download offline maps when you are at good internet.
+It is three clicks with Google or Apple maps.
+*  Public restrooms on the island:
+[in bakery](https://maps.app.goo.gl/7m6bm3yAzTVsfXvu7),
+[at baseball field](https://maps.app.goo.gl/oM1sGkWP1EJjxprs9),
+[in health center](https://maps.app.goo.gl/vTqVem3zUXjemstFA),
+[in airport](https://maps.app.goo.gl/1M1htG8BDweVEAN47),
+[on east end](https://maps.app.goo.gl/tRkRi4DWqxKKtgPW7),
+[on beach](https://maps.app.goo.gl/McHZJQzQ673w3JcN6).
 
 ## When waves are high:
 
@@ -91,7 +101,7 @@ When waves are high it is safer to swim in other places:
 ## Fun things to do:
 
 * Fishing in ocean, with no license
-* Hiking, there ar many trails around
+* Hiking, there ar many roads around
 * Surfing
 * Pickup coconuts on the beach and open with tools located in living room
 * Guided tour with [Molokai Outdoors](http://www.molokaioutdoors.com)
@@ -104,7 +114,9 @@ When waves are high it is safer to swim in other places:
   7:15am-8:30am [here](https://maps.app.goo.gl/7A6cSYrKSzKsA5Pn9), 808-553-8018, molokaiwaa@gmail.com
 * Enjoy Dave's ice cream at [Kamoi Snack-n-Go](https://maps.app.goo.gl/KVWzH8Ejtv9LQ7mAA)
 * Play or learn to play guitar, located in living room
-* Nails with Jazzi Fresh, 808-213-4129
+* If you want haircut, ask around for Sherrie
+* If you want fresh ahi or deer jerky, ask around for Gabe
+* Do nails at Honey Beauty Salon, 808-213-4129
 
 ## Transportation:
 
@@ -113,9 +125,10 @@ When waves are high it is safer to swim in other places:
 * Dan, shuttle: +1 (808) 284-6971
 * Free bus [MIO](https://docs.google.com/document/d/1PD5GrjqgUuhpDiYCeDIsmwhmKzlgClj_q_hHDpFNQ9o/edit?tab=t.0),
   our stop is [Kaluakoi Villas](https://maps.app.goo.gl/18zXPdL472JJZPyh9), it loops the island,
-  so you can go any direction
+  so go any direction
 * [Discount Hawaii Car Rental](https://www.discounthawaiicarrental.com/)
 * Fly to other island with [Mokulele Airlines](https://www.mokuleleairlines.com/)
+* Book the boat Kauko to/from Maui: 808 658-0783
 '''),
     );
   }

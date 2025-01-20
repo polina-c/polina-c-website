@@ -61,22 +61,21 @@ class _Text2 extends StatelessWidget {
 
 ## Software Engineer
 
-I am a proud member of the [Flutter](https://flutter.dev) team, creator of
-[Flutter Chat](http://flutter-chat.dav),
-[LayerLens](https://pub.dev/packages/layerlens)
-and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_tracking/OVERVIEW.md).
+I am a proud member of the [Flutter](https://flutter.dev) team.
 
 [Flutter](https://flutter.dev) is a programming language designed to
 create **beautiful UI** in a simple and easy to understand way.
-I am highly interested in popularizing Flutter,
-so feel free to reach out if you need help using it.
+
+I am creator of
+[Flutter Chat](http://flutter-chat.dev),
+[LayerLens](https://pub.dev/packages/layerlens)
+and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_tracking/OVERVIEW.md).
 
 ## Energy Practitioner
 
-* Constellation facilitator and field therapist
+* Constellation facilitator, field therapist, life mirror
 * Student in [Open Field Institute](https://openfield.ru)
 * Creator of [Happy Creek](https://happy-creek.com)
-* Life mirror
 
 ## Life Mirror
 
@@ -103,8 +102,7 @@ through the lens of their experience and beliefs.
 If we **differentiate reflections
 from reality**, the reflections may become **very helpful**.
 
-I will be happy to be added to your **pool of life mirrors**
-and schedule a session for you when you need it.
+I am inviting you to add me to your **pool of life mirrors**.
 
 ## Hawaii Host
 
