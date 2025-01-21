@@ -96,11 +96,11 @@ It is good to have a pool of people (life mirrors?) to whom we can say,
 I want to **move faster and easier**. Could you please become my mirror,
 and help me extend my perspective, so that I could see more?”
 
-Mirrors may alter our
-perspective of reality significantly,
-through the lens of their experience and beliefs.
+Mirrors may show reality very differently, deepening it,
+altering it, twisting it and taking all possible angles.
 If we **differentiate reflections
-from reality**, the reflections may become **very helpful**.
+from reality**, the reflections may be **very helpful**,
+showing us perspectives and angles that we could not think about.
 
 I am inviting you to add me to your **pool of life mirrors**.
 
