@@ -92,7 +92,7 @@ We may want to look at our life in a mirror, to catch details
 that we normally do not see.
 
 It is good to have a pool of people (life mirrors?) to whom we can say,
-“I have ambitious goals. And I am facing challenges achieving them.
+“I have my goals. And I am facing challenges achieving them.
 I want to **move faster and easier**. Could you please become my mirror,
 and help me extend my perspective, so that I could see more?”
 
