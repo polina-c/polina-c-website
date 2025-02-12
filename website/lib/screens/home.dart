@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/link.dart';
 
 import '../shared/bricks/image.dart';
 import '../shared/bricks/layout.dart';
 import '../shared/bricks/text.dart';
-import '../shared/bricks/utils.dart';
 import '../shared/content/contacts.dart';
 import '../shared/framework/app_structure.dart';
 
