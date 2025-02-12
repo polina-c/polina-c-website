@@ -46,6 +46,8 @@ class _Text1 extends StatelessWidget {
 
 I am a software engineer, energy practitioner, and mom of grown children.
 I am from Saint Petersburg, Russia, currently living in Kirkland WA, US.
+
+[My telegram channel](https://t.me/+KG-nDQP-gsQ5YWRh)
 '''),
     );
   }
@@ -67,7 +69,7 @@ I am a proud member of the [Flutter](https://flutter.dev) team.
 create **beautiful UI** in a simple and easy to understand way.
 
 I am creator of
-[Flutter Chat](http://flutter-chat.dev),
+[Flutter Chat](http://flutter-chat.com),
 [LayerLens](https://pub.dev/packages/layerlens)
 and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_tracking/OVERVIEW.md).
 
