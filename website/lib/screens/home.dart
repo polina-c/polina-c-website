@@ -77,33 +77,6 @@ and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_
 * Student in [Open Field Institute](https://openfield.ru)
 * Creator of [Happy Creek](https://happy-creek.com)
 
-## Life Mirror
-
-You can schedule a life mirroring session with me.
-
-Sometimes things are **clear**: We know **what we want**
-and how to get there.
-It is just a matter of time.
-
-Sometimes things are **foggy**: We are lost. Or we feel we could move
-faster, with less friction. And we suspect we may have blind spots.
-
-We may want to look at our life in a mirror, to catch details
-that we normally do not see.
-
-It is good to have a pool of people (life mirrors?) to whom we can say,
-“I have my goals. And I am facing challenges achieving them.
-I want to **move faster and easier**. Could you please become my mirror,
-and help me extend my perspective, so that I could see more?”
-
-Mirrors may show reality very differently, deepening it,
-altering it, twisting it and taking all possible angles.
-If we **differentiate reflections
-from reality**, the reflections may be **very helpful**,
-showing us perspectives and angles that we could not think about.
-
-I am inviting you to add me to your **pool of life mirrors**.
-
 ## Hawaii Host
 
 My **second home** is in Hawaii, West Molokai. **Rent it** while I am on big land!

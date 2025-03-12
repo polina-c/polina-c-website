@@ -120,15 +120,19 @@ When waves are high it is safer to swim in other places:
 
 ## Transportation:
 
-* Molokai taxi: +1 (808) 336-0967
-* Butch, shuttle: +1 (989) 858-0795
-* Dan, shuttle: +1 (808) 284-6971
+* Taxi/shuttle:
+    * Butch, lives in a condo nearby: +1 (989) 858-0795
+    * Dan: +1 (808) 284-6971
+    * Molokai taxi: +1 (808) 336-0967
 * Free bus [MIO](https://docs.google.com/document/d/1PD5GrjqgUuhpDiYCeDIsmwhmKzlgClj_q_hHDpFNQ9o/edit?tab=t.0),
   our stop is [Kaluakoi Villas](https://maps.app.goo.gl/18zXPdL472JJZPyh9), it loops the island,
   so go any direction
-* [Discount Hawaii Car Rental](https://www.discounthawaiicarrental.com/)
 * Fly to other island with [Mokulele Airlines](https://www.mokuleleairlines.com/)
-* Book the boat Kauko to/from Maui: 808 658-0783
+* Book the boat Kauko to/from Molokai [here](https://maps.app.goo.gl/QpsApe7Jh7K8U1xr7) to/from Maui [here](https://maps.app.goo.gl/tZEZER5gkD9w2Gj19): 808 658-0783
+* Car rentals:
+    * [Alamo, next to airport](https://maps.app.goo.gl/rpTK9KCtj7JdT6kg6)
+    * [Mobettah, next to port](https://maps.app.goo.gl/jHyvTt7sHEh8Wc7L6)
+    * [Discount Hawaii Car Rental](https://www.discounthawaiicarrental.com/)
 '''),
     );
   }
