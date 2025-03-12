@@ -49,7 +49,7 @@ class _Text1 extends StatelessWidget {
 
 Rent my magical place when I am on big land:
 
-[airbnb.com/h/polina](http://airbnb.com/h/polina).
+[airbnb.com/h/polina](http://airbnb.com/h/polina)
 
 '''),
     );
@@ -101,7 +101,7 @@ When waves are high it is safer to swim in other places:
 ## Fun things to do:
 
 * Fishing in ocean, with no license
-* Hiking, there ar many roads around
+* Hiking, there are many roads around
 * Surfing
 * Pickup coconuts on the beach and open with tools located in living room
 * Guided tour with [Molokai Outdoors](http://www.molokaioutdoors.com)
