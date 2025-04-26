@@ -70,16 +70,17 @@ class _Text2 extends StatelessWidget {
 
 ## Good things to know:
 
-*  Fuel your car before you are at the bottom of your tank, because there are only two gas
+*  **Fuel** your car before you are at the bottom of your tank, because there are only two gas
 stations on the island, and they may be closed unexpectedly.
-*  Most local stores do not sell alcohol. You can buy it in
+*  Most local stores do not sell **alcohol**. You can buy it in
 the [Kaunakakai town](https://maps.app.goo.gl/6ZgnvyNwkkbBjx87A)
 or [Kualapuu Market](https://maps.app.goo.gl/gHnMsayZwsc9X7vR8).
 *  Tap water is clean and tasty here. Just enjoy it.
-*  Cell phone reception is on and off here. Download offline maps when you are at good internet.
+*  Cell phone reception is on and off here. Download **offline maps** when you are at good internet.
 It is three clicks with Google or Apple maps.
-*  Public restrooms on the island:
+*  Public **restrooms** on the island:
 [in bakery](https://maps.app.goo.gl/7m6bm3yAzTVsfXvu7),
+[in Molokai Burger](https://maps.app.goo.gl/xMPaZ1UJMYP4XDYdA),
 [at baseball field](https://maps.app.goo.gl/oM1sGkWP1EJjxprs9),
 [in health center](https://maps.app.goo.gl/vTqVem3zUXjemstFA),
 [in airport](https://maps.app.goo.gl/1M1htG8BDweVEAN47),
@@ -88,7 +89,7 @@ It is three clicks with Google or Apple maps.
 
 ## When waves are high:
 
-When waves are high it is safer to swim in other places:
+When waves are high it is safer to **swim in other places**:
 
 * 🐈‍⬛ 🐈 🐈‍⬛ [Kaunalā Beach](https://maps.app.goo.gl/nx6uwWqR7XYin2Mm8) (you may meet many cats here)
 * Places near 🥗 [Manae Goods and Grinds](https://maps.app.goo.gl/HH2NF5gwU2bjAtoN8):
@@ -100,23 +101,23 @@ When waves are high it is safer to swim in other places:
 
 ## Fun things to do:
 
-* Fishing in ocean, with no license
-* Hiking, there are many roads around
-* Surfing
-* Pickup coconuts on the beach and open with tools located in living room
-* Guided tour with [Molokai Outdoors](http://www.molokaioutdoors.com)
-* Diving, snorkeling, fishing and whale watching with [Molokai Fish and Dive](https://molokaifishanddive.net/)
-* Amazing live music every night, except Mondays, at [Hero's Ohana Grill](https://www.hirosohanagrill.com/),
+* **Fishing** in ocean, with no license
+* **Hiking**, there are many roads around
+* **Surfing**
+* Pickup **coconuts** on the beach and open with tools located in living room
+* Guided **tour to falls** with [Molokai Outdoors](http://www.molokaioutdoors.com)
+* **Diving, snorkeling, fishing and whale watching** with [Molokai Fish and Dive](https://molokaifishanddive.net/)
+* Amazing **live music** every night, except Mondays, at [Hero's Ohana Grill](https://www.hirosohanagrill.com/),
   with special music on happy hour every Friday 3:30-5:30
-* Farmers market 9-12 on Saturdays near the [church](https://maps.app.goo.gl/dTsH2cW4qxZg5Qsd6)
-* Practice hula dance on Thursdays 5pm at [Home Pumehana](https://maps.app.goo.gl/wTPB1tigwGe6s9TF8)
-* Paddle an outrigger canoe on Thursdays
+* **Farmers market** 9-12 on Saturdays near the [church](https://maps.app.goo.gl/dTsH2cW4qxZg5Qsd6)
+* Practice **hula dance** on Thursdays 5pm at [Home Pumehana](https://maps.app.goo.gl/wTPB1tigwGe6s9TF8)
+* Paddle an outrigger **canoe** on Thursdays
   7:15am-8:30am [here](https://maps.app.goo.gl/7A6cSYrKSzKsA5Pn9), 808-553-8018, molokaiwaa@gmail.com
-* Enjoy Dave's ice cream at [Kamoi Snack-n-Go](https://maps.app.goo.gl/KVWzH8Ejtv9LQ7mAA)
-* Play or learn to play guitar, located in living room
-* If you want haircut, ask around for Sherrie
-* If you want fresh ahi or deer jerky, ask around for Gabe
-* Do nails at Honey Beauty Salon, 808-213-4129
+* Enjoy Dave's **ice cream** at [Kamoi Snack-n-Go](https://maps.app.goo.gl/KVWzH8Ejtv9LQ7mAA)
+* Play or learn to **play guitar**, located in living room
+* If you want **haircut**, ask around for Sherrie
+* If you want **fresh ahi or deer jerky**, ask around for Gabe
+* Do **nails** at Honey Beauty Salon, text 808-213-4129
 
 ## Transportation:
 
