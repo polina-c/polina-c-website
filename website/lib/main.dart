@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 import 'screens/home.dart';
 import 'screens/molokai.dart';
@@ -13,6 +14,7 @@ final _screens = <String, WidgetBuilder>{
 
 void main() async {
   runApp(const MainApp());
+  SemanticsBinding.instance.ensureSemantics();
 }
 
 class MainApp extends StatelessWidget {

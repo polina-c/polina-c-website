@@ -33,7 +33,6 @@ class AppMarkdown extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Markdown(
-      selectable: true,
       // To prevent scroll on drag in mobile Safary.
       physics: const ScrollPhysics(),
       data: content,
