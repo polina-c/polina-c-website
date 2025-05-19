@@ -47,9 +47,9 @@ class _Text1 extends StatelessWidget {
       child: AppMarkdown('''
 # Hawaii, West Molokai
 
-Rent my magical place when I am on big land:
+Rent my magical place when I am on big land.
 
-[airbnb.com/h/polina](http://airbnb.com/h/polina)
+1 bedroom + loft + car: [airbnb.com/h/polina](http://airbnb.com/h/polina)
 
 '''),
     );

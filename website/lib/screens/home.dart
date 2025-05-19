@@ -43,9 +43,8 @@ class _Text1 extends StatelessWidget {
 # Hello, I'm Polina!
 
 I am a software engineer, energy practitioner, and mom of grown children.
-I am from Saint Petersburg, Russia, currently living in Kirkland WA, US.
-
-[Join me on my telegram channel.](https://t.me/+KG-nDQP-gsQ5YWRh)
+I am from Saint Petersburg, Russia, currently living in
+Kirkland, WA, US and Hawaii, Molokai.
 '''),
     );
   }
@@ -73,7 +72,6 @@ and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_
 
 ## Energy Practitioner
 
-* Constellation facilitator, field therapist, life mirror
 * Student in [Open Field Institute](https://openfield.ru)
 * Creator of [Happy Creek](https://happy-creek.com)
 
