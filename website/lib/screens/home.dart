@@ -75,6 +75,24 @@ and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_
 * Student in [Open Field Institute](https://openfield.ru)
 * Creator of [Happy Creek](https://happy-creek.com)
 
+## Judge at Yearly Oral Math Olympiad
+
+[Oral Math Olympiad](https://sites.math.washington.edu/~mathcircle/olympiad/)
+is a unique event happening yearly
+just in **two places in the world**: Saint Petersburg, Russia
+and Seattle, WA.
+
+Unlike other math olympiads, it is **oral**, that means students
+have three attempts to solve the problem, and after each one they
+receive **feedback** from the judge. This allows students to learn
+and **improve their skills in real time**.
+
+After the event, **the solutions** for all problems are presented and
+**discussed** in a large room.
+
+If you want to become a judge, or **volunteer** differently at the event,
+please contact me.
+
 ## Hawaii Host
 
 My **second home** is in Hawaii, West Molokai. **Rent it** while I am on big land!

@@ -75,7 +75,7 @@ stations on the island, and they may be closed unexpectedly.
 *  Most local stores do not sell **alcohol**. You can buy it in
 the [Kaunakakai town](https://maps.app.goo.gl/6ZgnvyNwkkbBjx87A)
 or [Kualapuu Market](https://maps.app.goo.gl/gHnMsayZwsc9X7vR8).
-*  Tap water is clean and tasty here. Just enjoy it.
+*  Tap water is **clean and tasty** here. Just enjoy it.
 *  Cell phone reception is on and off here. Download **offline maps** when you are at good internet.
 It is three clicks with Google or Apple maps.
 *  Public **restrooms** on the island:
@@ -99,41 +99,49 @@ When waves are high it is safer to **swim in other places**:
 * [Facing Maui](https://maps.app.goo.gl/E8QdtwifJktByqvw6)
 * [East end](https://maps.app.goo.gl/ZsiPjDyxk2pqb6hu7)
 
-## Fun things to do:
+## Engage with local culture:
+
+* **Memorize** the [Hawai'i Aloha](https://www.manamele.org/hawai-i-aloha) lyrics and sing it with locals
+* Enjoy amazing **Hawaiian live music** every night, except Mondays, at [Hero's Ohana Grill](https://www.hirosohanagrill.com/),
+  with special music on happy hour every Friday 3:30-5:30
+* Join guided **historical tour to falls** with [Molokai Outdoors](http://www.molokaioutdoors.com)
+* Visit **Farmers market** 9-12 on Saturdays near the [church](https://maps.app.goo.gl/dTsH2cW4qxZg5Qsd6)
+* Practice **hula dance** on Thursdays 5pm at [Home Pumehana](https://maps.app.goo.gl/wTPB1tigwGe6s9TF8)
+* Paddle an **outrigger canoe** on Thursdays
+  7:15am-8:30am [here](https://maps.app.goo.gl/7A6cSYrKSzKsA5Pn9), 808-553-8018, molokaiwaa@gmail.com
+* If you want **fresh ahi or deer jerky**, ask around for Gabe
+
+## Other fun things to do:
 
 * **Fishing** in ocean, with no license
 * **Hiking**, there are many roads around
-* **Surfing**
+* **Surfing** right here on the beach, (you can rent a board at [Molokai Surf](https://molokaisurf.com/))
 * Pickup **coconuts** on the beach and open with tools located in living room
-* Guided **tour to falls** with [Molokai Outdoors](http://www.molokaioutdoors.com)
 * **Diving, snorkeling, fishing and whale watching** with [Molokai Fish and Dive](https://molokaifishanddive.net/)
-* Amazing **live music** every night, except Mondays, at [Hero's Ohana Grill](https://www.hirosohanagrill.com/),
-  with special music on happy hour every Friday 3:30-5:30
-* **Farmers market** 9-12 on Saturdays near the [church](https://maps.app.goo.gl/dTsH2cW4qxZg5Qsd6)
-* Practice **hula dance** on Thursdays 5pm at [Home Pumehana](https://maps.app.goo.gl/wTPB1tigwGe6s9TF8)
-* Paddle an outrigger **canoe** on Thursdays
-  7:15am-8:30am [here](https://maps.app.goo.gl/7A6cSYrKSzKsA5Pn9), 808-553-8018, molokaiwaa@gmail.com
 * Enjoy Dave's **ice cream** at [Kamoi Snack-n-Go](https://maps.app.goo.gl/KVWzH8Ejtv9LQ7mAA)
 * Play or learn to **play guitar**, located in living room
 * If you want **haircut**, ask around for Sherrie
-* If you want **fresh ahi or deer jerky**, ask around for Gabe
 * Do **nails** at Honey Beauty Salon, text 808-213-4129
 
 ## Transportation:
 
-* Taxi/shuttle:
+* **Taxi/shuttle**:
     * Butch, lives in a condo nearby: +1 (989) 858-0795
     * Dan: +1 (808) 284-6971
     * Molokai taxi: +1 (808) 336-0967
-* Free bus [MIO](https://docs.google.com/document/d/1PD5GrjqgUuhpDiYCeDIsmwhmKzlgClj_q_hHDpFNQ9o/edit?tab=t.0),
+* Free **bus** [MIO](https://docs.google.com/document/d/1PD5GrjqgUuhpDiYCeDIsmwhmKzlgClj_q_hHDpFNQ9o/edit?tab=t.0),
   our stop is [Kaluakoi Villas](https://maps.app.goo.gl/18zXPdL472JJZPyh9), it loops the island,
   so go any direction
-* Fly to other island with [Mokulele Airlines](https://www.mokuleleairlines.com/)
-* Book the boat Kauko to/from Molokai [here](https://maps.app.goo.gl/QpsApe7Jh7K8U1xr7) to/from Maui [here](https://maps.app.goo.gl/tZEZER5gkD9w2Gj19): 808 658-0783
-* Car rentals:
+* **Fly** to other island with [Mokulele Airlines](https://www.mokuleleairlines.com/)
+* Book **the boat** Kauko to/from Molokai [here](https://maps.app.goo.gl/QpsApe7Jh7K8U1xr7) to/from Maui [here](https://maps.app.goo.gl/tZEZER5gkD9w2Gj19): 808 658-0783
+* **Car rentals**:
     * [Alamo, next to airport](https://maps.app.goo.gl/rpTK9KCtj7JdT6kg6)
     * [Mobettah, next to port](https://maps.app.goo.gl/jHyvTt7sHEh8Wc7L6)
     * [Discount Hawaii Car Rental](https://www.discounthawaiicarrental.com/)
+
+## More
+
+Find more Molokai tips at [1-800-molokai.com](https://m.1-800-molokai.com/).
 '''),
     );
   }
