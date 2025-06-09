@@ -77,14 +77,14 @@ and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_
 
 ## Judge at Yearly Oral Math Olympiad
 
-[Oral Math Olympiad](https://sites.math.washington.edu/~mathcircle/olympiad/)
+[Individual oral math olympiad](https://sites.math.washington.edu/~mathcircle/olympiad/)
 is a unique event happening yearly
 just in **two places in the world**: Saint Petersburg, Russia
 and Seattle, WA.
 
 Unlike other math olympiads, it is **oral**, that means students
-have three attempts to solve the problem, and after each one they
-receive **feedback** from the judge. This allows students to learn
+have three attempts to explain their solution to a judge, and
+receive **feedback**. This allows students to learn
 and **improve their skills in real time**.
 
 After the event, **the solutions** for all problems are presented and
