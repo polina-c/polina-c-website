@@ -93,6 +93,19 @@ After the event, **the solutions** for all problems are presented and
 If you want to become a judge, or **volunteer** differently at the event,
 please contact me.
 
+## Dancer
+
+I can:
+
+* follow and lead argentine tango
+* follow salsa
+* dance hula
+* dance with fire staff
+
+## Catchball Player
+
+I play catchball with [USA Catchball Association](https://www.usacatchball.com/).
+
 ## Hawaii Host
 
 My **second home** is in Hawaii, West Molokai. **Rent it** while I am on big land!
