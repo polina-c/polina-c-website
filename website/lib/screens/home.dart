@@ -75,7 +75,7 @@ and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_
 * Student in [Open Field Institute](https://openfield.ru)
 * Creator of [Happy Creek](https://happy-creek.com)
 
-And, I am preparing for publishing the book
+And, I am preparing for publishing the **book**
 "Energy Field Theory: A Concise Overview",
 that explains the **energy field** assumed in
 the method of systemic constellations, introduced
