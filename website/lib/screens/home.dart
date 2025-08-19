@@ -80,7 +80,7 @@ And, I am preparing for publishing the **book**
 that explains the **energy field** assumed in
 the method of systemic constellations, introduced
 by Bert Hellinger in the second half of the 20th century.
-Ping me, if you want to be notified when it is ready.
+**Ping me**, if you want to be notified when it is ready.
 
 ## Judge at Yearly Oral Math Olympiad
 
