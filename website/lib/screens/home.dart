@@ -75,6 +75,13 @@ and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_
 * Student in [Open Field Institute](https://openfield.ru)
 * Creator of [Happy Creek](https://happy-creek.com)
 
+And, I am preparing for publishing the book
+"Energy Field Theory: A Concise Overview",
+that explains the **energy field** assumed in
+the method of systemic constellations, introduced
+by Bert Hellinger in the second half of the 20th century.
+Ping me, if you want to be notified when it is ready.
+
 ## Judge at Yearly Oral Math Olympiad
 
 [Individual oral math olympiad](https://sites.math.washington.edu/~mathcircle/olympiad/)
