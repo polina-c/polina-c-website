@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:url_strategy/url_strategy.dart';
 
 import 'screens/home.dart';
 import 'screens/molokai.dart';
@@ -13,6 +14,7 @@ final _screens = <String, WidgetBuilder>{
 };
 
 void main() async {
+  setPathUrlStrategy();
   runApp(const MainApp());
   SemanticsBinding.instance.ensureSemantics();
 }
