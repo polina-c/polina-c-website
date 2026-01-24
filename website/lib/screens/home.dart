@@ -86,7 +86,7 @@ And, at the moment I am in the team that is putting together [GenUI SDK](https:/
 ## Judge at Yearly Oral Math Olympiad
 
 [Individual oral math olympiad](https://sites.math.washington.edu/~mathcircle/olympiad/)
-is a unique event happening yearly
+ ♾️ is a unique event happening yearly
 just in **two places in the world**: Saint Petersburg, Russia
 and Seattle, WA.
 
@@ -103,7 +103,7 @@ please contact me.
 
 ## Dancer
 
-I 💃:
+I can 💃:
 
 * follow and lead argentine tango
 * follow salsa
@@ -111,6 +111,8 @@ I 💃:
 * dance with fire staff
 
 ## Catchball Player
+
+🤾‍♂️
 
 I play catchball with [USA Catchball Association](https://www.usacatchball.com/).
 

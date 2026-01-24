@@ -16,6 +16,11 @@ To deploy code to https://polina-c.web.app/ (aka http://polin-c.com):
 firebase deploy
 ```
 
+To deploy preview:
+```
+firebase hosting:channel:deploy scroll-issue
+```
+
 Project: https://console.firebase.google.com/project/polina-c/hosting/sites/polina-c
 
 ### Generate icon
