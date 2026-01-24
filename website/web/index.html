@@ -36,6 +36,88 @@
   <!-- See https://github.com/pichillilorenzo/flutter_inappwebview/issues/1468#issuecomment-1873952950 -->
   <script type="application/javascript" src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js"
     defer></script>
+
+  <!-- Safari scroll performance optimizations -->
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      -webkit-overflow-scrolling: touch;
+      /* Aggressive hardware acceleration for Safari */
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      will-change: scroll-position;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      perspective: 1000px;
+      -webkit-perspective: 1000px;
+    }
+
+    /* Optimize Flutter app container for Safari - aggressive optimizations */
+    flt-glass-pane,
+    flt-scene-host,
+    flt-scene,
+    flt-view-semantics {
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      will-change: transform;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      isolation: isolate;
+      contain: layout style paint;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* Critical: Optimize canvas rendering for Safari */
+    canvas {
+      transform: translate3d(0, 0, 0) !important;
+      -webkit-transform: translate3d(0, 0, 0) !important;
+      will-change: transform !important;
+      backface-visibility: hidden !important;
+      -webkit-backface-visibility: hidden !important;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+      /* Force GPU acceleration */
+      isolation: isolate;
+      contain: strict;
+    }
+
+    /* Improve scroll performance on Safari */
+    * {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    /* Allow text selection where needed */
+    input,
+    textarea,
+    [contenteditable] {
+      -webkit-user-select: text;
+      user-select: text;
+    }
+
+    /* Optimize scroll containers specifically */
+    [style*="overflow"],
+    [style*="scroll"] {
+      -webkit-overflow-scrolling: touch !important;
+      transform: translate3d(0, 0, 0) !important;
+      -webkit-transform: translate3d(0, 0, 0) !important;
+      will-change: scroll-position !important;
+    }
+
+    /* Reduce paint operations */
+    flt-scene-host>* {
+      contain: layout style paint;
+    }
+  </style>
+  <!-- Safari scroll performance optimizations end -->
+
 </head>
 
 <body>
