@@ -112,8 +112,6 @@ I can 💃:
 
 ## Catchball Player
 
-🤾‍♂️
-
 I play catchball with [USA Catchball Association](https://www.usacatchball.com/).
 
 ## Hawaii Host
