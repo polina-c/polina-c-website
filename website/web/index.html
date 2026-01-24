@@ -40,6 +40,155 @@
 
 <body>
   <script src="flutter_bootstrap.js" async></script>
+
+  <!-- Aggressive Safari scroll optimization -->
+  <script>
+    (function () {
+      const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent) ||
+        /iPad|iPhone|iPod/.test(navigator.userAgent);
+
+      if (isSafari) {
+        // Immediate hardware acceleration
+        const optimizeElement = function (el) {
+          if (!el) return;
+          el.style.transform = 'translate3d(0, 0, 0)';
+          el.style.webkitTransform = 'translate3d(0, 0, 0)';
+          el.style.willChange = 'transform';
+          el.style.backfaceVisibility = 'hidden';
+          el.style.webkitBackfaceVisibility = 'hidden';
+          el.style.isolation = 'isolate';
+          if (el.tagName === 'CANVAS') {
+            el.style.contain = 'strict';
+            el.style.imageRendering = '-webkit-optimize-contrast';
+          }
+        };
+
+        // Optimize document immediately
+        optimizeElement(document.documentElement);
+        optimizeElement(document.body);
+
+        // Throttle scroll events aggressively
+        let scrollTimeout;
+        let lastScrollTime = 0;
+        const throttleDelay = 16; // ~60fps
+
+        const originalAddEventListener = EventTarget.prototype.addEventListener;
+        EventTarget.prototype.addEventListener = function (type, listener, options) {
+          if (type === 'scroll' && isSafari) {
+            const throttledListener = function (e) {
+              const now = performance.now();
+              if (now - lastScrollTime >= throttleDelay) {
+                lastScrollTime = now;
+                listener.call(this, e);
+              }
+            };
+            return originalAddEventListener.call(this, type, throttledListener, {
+              ...options,
+              passive: true
+            });
+          }
+          return originalAddEventListener.call(this, type, listener, options);
+        };
+
+        // Optimize Flutter elements as they're created
+        const optimizeFlutterElements = function () {
+          // Canvas optimization
+          const canvases = document.querySelectorAll('canvas');
+          canvases.forEach(optimizeElement);
+
+          // Flutter container optimization
+          const flutterElements = document.querySelectorAll(
+            'flt-scene-host, flt-glass-pane, flt-scene, flt-view-semantics'
+          );
+          flutterElements.forEach(function (el) {
+            optimizeElement(el);
+            el.style.webkitOverflowScrolling = 'touch';
+            el.style.contain = 'layout style paint';
+          });
+        };
+
+        // Run optimizations immediately and repeatedly
+        optimizeFlutterElements();
+
+        // Use MutationObserver for dynamic elements
+        const observer = new MutationObserver(function (mutations) {
+          optimizeFlutterElements();
+        });
+
+        // Start observing as soon as body exists
+        if (document.body) {
+          observer.observe(document.body, {
+            childList: true,
+            subtree: true,
+            attributes: false
+          });
+        } else {
+          document.addEventListener('DOMContentLoaded', function () {
+            observer.observe(document.body, {
+              childList: true,
+              subtree: true,
+              attributes: false
+            });
+          });
+        }
+
+        // Optimize on load
+        window.addEventListener('load', function () {
+          optimizeFlutterElements();
+          // Continue optimizing periodically for dynamic content
+          setInterval(optimizeFlutterElements, 1000);
+        });
+
+        // Optimize after Flutter initializes (check for Flutter objects)
+        let flutterCheckInterval = setInterval(function () {
+          if (window.flutter || document.querySelector('flt-scene-host')) {
+            clearInterval(flutterCheckInterval);
+            optimizeFlutterElements();
+            // Force a repaint to apply optimizations
+            setTimeout(function () {
+              document.body.style.display = 'none';
+              document.body.offsetHeight; // Trigger reflow
+              document.body.style.display = '';
+              optimizeFlutterElements();
+            }, 100);
+          }
+        }, 100);
+
+        // Stop checking after 10 seconds
+        setTimeout(function () {
+          clearInterval(flutterCheckInterval);
+        }, 10000);
+
+        // Optimize canvas rendering mode if possible
+        const optimizeCanvasRendering = function () {
+          const canvases = document.querySelectorAll('canvas');
+          canvases.forEach(function (canvas) {
+            try {
+              const ctx = canvas.getContext('2d', {
+                alpha: false, // Disable alpha for better performance
+                desynchronized: true, // Allow async rendering
+                willReadFrequently: false
+              });
+              if (ctx) {
+                // Set rendering hints
+                ctx.imageSmoothingEnabled = false;
+                ctx.webkitImageSmoothingEnabled = false;
+              }
+            } catch (e) {
+              // Ignore errors
+            }
+          });
+        };
+
+        // Try to optimize canvas rendering after a delay
+        setTimeout(optimizeCanvasRendering, 500);
+        window.addEventListener('load', function () {
+          setTimeout(optimizeCanvasRendering, 1000);
+        });
+      }
+    })();
+  </script>
+  <!-- Aggressive Safari scroll optimization end -->
 </body>
 
 </html>
