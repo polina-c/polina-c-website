@@ -60,27 +60,28 @@ class _Text2 extends StatelessWidget {
 
 ## Software Engineer
 
-I am a proud member of the [Flutter](https://flutter.dev) team.
+I am a proud member of the [Flutter](https://flutter.dev) team in Google.
 
 [Flutter](https://flutter.dev) is a programming language designed to
-create **beautiful UI** in a simple and easy to understand way.
+create **beautiful applications** on any platform in a simple
+and easy to understand way.
 
 I am creator of
 [Flutter Chat](http://flutter-chat.com),
 [LayerLens](https://pub.dev/packages/layerlens)
 and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_tracking/OVERVIEW.md).
+And, at the moment I am in the team that is putting together [GenUI SDK](https://github.com/flutter/genui).
 
 ## Energy Practitioner
 
+* Author of [The Field](https://www.amazon.com/dp/B0G4FS4JL4) / 
+[Поле](https://docs.google.com/document/d/1wfT5f0Y98_wDo-FqqqTAowRbxZsnPZUWYJ_w61JqNBo/edit?usp=sharing)
+
+![The Field](https://live.staticflickr.com/65535/54974095107_2004b853d7_t.jpg)
+
+* Creator of [the-field.world](https://the-field.world)
 * Student in [Open Field Institute](https://openfield.ru)
 * Creator of [Happy Creek](https://happy-creek.com)
-
-And, I am preparing for publishing the **book**
-"Energy Field Theory: A Concise Overview",
-that explains the **energy field** assumed in
-the method of systemic constellations, introduced
-by Bert Hellinger in the second half of the 20th century.
-**Ping me**, if you want to be notified when it is ready.
 
 ## Judge at Yearly Oral Math Olympiad
 
@@ -102,7 +103,7 @@ please contact me.
 
 ## Dancer
 
-I can:
+I 💃:
 
 * follow and lead argentine tango
 * follow salsa
