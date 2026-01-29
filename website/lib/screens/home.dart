@@ -79,7 +79,8 @@ And, at the moment I am in the team that is putting together [GenUI SDK](https:/
 
 ![The Field](https://live.staticflickr.com/65535/54974095107_2004b853d7_t.jpg)
 
-* Creator of [the-field.world](https://the-field.world)
+* Creator of the web calendar[the-field.world](https://the-field.world)
+* Host of the Telegram channel [the-field.world](https://t.me/the_field_world)
 * Student in [Open Field Institute](https://openfield.ru)
 * Creator of [Happy Creek](https://happy-creek.com)
 
