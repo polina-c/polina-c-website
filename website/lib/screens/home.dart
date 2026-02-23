@@ -84,6 +84,8 @@ And, at the moment I am in the team that is putting together [GenUI SDK](https:/
 * Student in [Open Field Institute](https://openfield.ru)
 * Creator of [Happy Creek](https://happy-creek.com)
 
+Send me a message to schedule a session, cinstellation or ritual (find contacts below).
+
 ## Judge at Yearly Oral Math Olympiad
 
 [Individual oral math olympiad](https://sites.math.washington.edu/~mathcircle/olympiad/)
