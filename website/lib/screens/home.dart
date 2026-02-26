@@ -81,10 +81,10 @@ And, at the moment I am in the team that is putting together [GenUI SDK](https:/
 
 * Creator of the site-calendar [the-field.world](https://the-field.world)
 * Host of the Telegram channel [the-field.world](https://t.me/the_field_world)
-* Student in [Open Field Institute](https://openfield.ru)
+* Student of various masters around the world
 * Creator of [Happy Creek](https://happy-creek.com)
 
-Send me a message to schedule a session, cinstellation or ritual (find contacts below).
+Send me a message to schedule a session, constellation or ritual (find contacts below).
 
 ## Judge at Yearly Oral Math Olympiad
 
