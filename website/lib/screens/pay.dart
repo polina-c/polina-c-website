@@ -15,11 +15,17 @@ class _Screen extends StatefulWidget {
 class _ScreenState extends State<_Screen> {
   @override
   Widget build(BuildContext context) {
-    return AppMarkdown('''
-# How to send me money
-
-Zelle to polina.c @ live.com ([copy email](mailto:polina.c @ live.com)).\n
-
-''');
+    return const Padding(
+      padding: EdgeInsets.all(16.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('Options to send me money:'),
+          SizedBox(height: 16),
+          Text('Zelle to: polina.c@live.com'),
+          Text('PayPal to: polina.c@live.com'),
+        ],
+      ),
+    );
   }
 }
