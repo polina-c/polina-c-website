@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Poppins:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;900&family=Poppins:wght@100;400;700;900&display=swap');
 
 :root {
   --text: #29043f;
@@ -73,7 +73,7 @@ a {
 .app-title,
 .app-title a {
   font-family: 'Outfit', sans-serif;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 26px;
   color: var(--text);
   line-height: 1.1;
