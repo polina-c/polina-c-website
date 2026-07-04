@@ -18,12 +18,40 @@ const _venmoQrUrl = 'https://live.staticflickr.com/65535/55374506039_0b8a81c122_
 const _ruCardNumber = '2200 7008 8827 2415';
 const _ruCardDescription = 'Полина Черкасова, ТБанк';
 
+final _channels = [];
+
+/// A single way to send money to Polina (Zelle, PayPal, Stripe, Wise, ...).
+class _PaymentChannel {
+  const _PaymentChannel({
+    required this.title,
+    this.description,
+    this.qr,
+    this.link,
+    this.id,
+  });
+
+  /// Display name of the channel, e.g. 'Zelle'.
+  final String title;
+
+  /// Extra explanatory text shown under the title.
+  final String? description;
+
+  /// URL of a QR-code image for the channel.
+  final String? qr;
+
+  /// URL to open in order to pay through this channel.
+  final String? link;
+
+  /// The identifier to copy, e.g. an email, handle or card number.
+  final String? id;
+}
+
 /// Shows options to send money to Polina.
 ///
 /// Options are:
 ///
-/// * Zelle: to [_email]
-/// * PayPal: to [_email]
+/// * Zelle: to [_zelleEmail]
+/// * PayPal: to [_paypalEmail]
 /// * Stripe: [_stripeUrl]
 /// * Telegram wallet: [_telegramWalletUrl]
 /// * Wise: [_wiseUrl]
@@ -38,8 +66,8 @@ class Pay extends StatelessComponent {
         child: div(classes: 'pay', [
           p([Component.text('Options to send me money:')]),
           div(classes: 'spacer', []),
-          const _EmailRow(label: 'Zelle to: ', email: _email),
-          const _EmailRow(label: 'PayPal to: ', email: _email),
+          const _EmailRow(label: 'Zelle to: ', email: _zelleEmail),
+          const _EmailRow(label: 'PayPal to: ', email: _paypalEmail),
           const _LinkRow(
             label: 'Stripe: ',
             linkText: 'donate.stripe.com',
