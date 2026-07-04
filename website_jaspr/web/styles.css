@@ -186,6 +186,34 @@ a {
   height: 16px;
 }
 
+.pay-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0;
+}
+
+.copy-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 1;
+  padding: 2px 6px;
+  border-radius: 6px;
+  color: var(--primary);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.copy-btn:hover {
+  background: var(--card);
+}
+
+.copy-btn.copied {
+  color: #2e7d32;
+}
+
 /* ---------- Home link (molokai -> home) ---------- */
 
 .home-link {
