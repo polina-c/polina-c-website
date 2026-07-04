@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Poppins:wght@100;400;700;900&display=swap');
 
 :root {
-  --text: #29043f;      /* rgb(41, 4, 63)     */
-  --card: #a1e8ff;      /* rgb(161, 232, 255) */
-  --logo: #ec407a;      /* Colors.pink.shade500 */
-  --primary: #009688;   /* Colors.teal        */
-  --divider: #eeeeee;   /* Colors.grey.shade200 */
+  --text: #29043f;
+  /* rgb(41, 4, 63)     */
+  --card: #a1e8ff;
+  /* rgb(161, 232, 255) */
+  --logo: #ec407a;
+  /* Colors.pink.shade500 */
+  --primary: #009688;
+  /* Colors.teal        */
+  --divider: #eeeeee;
+  /* Colors.grey.shade200 */
   --bg: #ffffff;
 }
 
@@ -198,7 +203,7 @@ a {
   background: none;
   cursor: pointer;
   font-family: inherit;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1;
   padding: 2px 6px;
   border-radius: 6px;
