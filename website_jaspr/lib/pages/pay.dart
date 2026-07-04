@@ -5,21 +5,6 @@ import '../components/layout.dart';
 import '../components/scaffold.dart';
 import '../constants/routes.dart';
 
-const _zelleEmail = 'polina.c@live.com';
-const _paypalEmail = 'polina.c@live.com';
-const _stripeUrl = 'https://buy.stripe.com/5kQaEW8sa9fC4uk08caZi02';
-const _telegramWalletUrl = 'https://t.me/polina_314159';
-const _telegramName = '@polina_314159';
-const _wiseUrl = 'https://wise.com/pay/me/polinac182?utm_source=request_flow';
-const _wizeQrUrl = 'https://live.staticflickr.com/65535/55374435663_e9bf818107_q.jpg';
-const _venmoName = '@Polina-Cherkasova';
-const _venmoUrl = 'https://venmo.com/code?user_id=1643562064150528522';
-const _venmoQrUrl = 'https://live.staticflickr.com/65535/55374506039_0b8a81c122_q.jpg';
-const _ruCardNumber = '2200 7008 8827 2415';
-const _ruCardDescription = 'Полина Черкасова, ТБанк';
-
-final _channels = <_PaymentChannel>[];
-
 /// A single way to send money to Polina (Zelle, PayPal, Stripe, Wise, ...).
 class _PaymentChannel {
   const _PaymentChannel({
@@ -46,15 +31,47 @@ class _PaymentChannel {
   final String? id;
 }
 
-/// Shows options to send money to Polina.
-///
-/// Options are:
-///
-/// * Zelle: to [_zelleEmail]
-/// * PayPal: to [_paypalEmail]
-/// * Stripe: [_stripeUrl]
-/// * Telegram wallet: [_telegramWalletUrl]
-/// * Wise: [_wiseUrl]
+/// All the ways to send money to Polina, in display order.
+const _channels = <_PaymentChannel>[
+  _PaymentChannel(
+    title: 'Zelle',
+    id: 'polina.c@live.com',
+    qr: 'https://live.staticflickr.com/65535/55374801415_b2dcd03467_q.jpg',
+  ),
+  _PaymentChannel(
+    title: 'PayPal',
+    id: 'polina.c@live.com',
+    link: 'https://www.paypal.com/paypalme/PolinaCherkasova683',
+    qr: 'https://live.staticflickr.com/65535/55374801410_9cb24ff4de_q.jpg',
+  ),
+  _PaymentChannel(
+    title: 'Stripe',
+    link: 'https://buy.stripe.com/5kQaEW8sa9fC4uk08caZi02',
+  ),
+  _PaymentChannel(
+    title: 'Telegram wallet',
+    id: '@polina_314159',
+    link: 'https://t.me/polina_314159',
+  ),
+  _PaymentChannel(
+    title: 'Wise',
+    link: 'https://wise.com/pay/me/polinac182?utm_source=request_flow',
+    qr: 'https://live.staticflickr.com/65535/55374435663_e9bf818107_q.jpg',
+  ),
+  _PaymentChannel(
+    title: 'Venmo',
+    id: '@Polina-Cherkasova',
+    link: 'https://venmo.com/code?user_id=1643562064150528522',
+    qr: 'https://live.staticflickr.com/65535/55374506039_0b8a81c122_q.jpg',
+  ),
+  _PaymentChannel(
+    title: 'Russian card',
+    description: 'Полина Черкасова, ТБанк',
+    id: '2200 7008 8827 2415',
+  ),
+];
+
+/// Shows all the ways to send money to Polina, one row per [_PaymentChannel].
 class Pay extends StatelessComponent {
   const Pay({super.key});
 
@@ -66,23 +83,7 @@ class Pay extends StatelessComponent {
         child: div(classes: 'pay', [
           p([Component.text('Options to send me money:')]),
           div(classes: 'spacer', []),
-          const _EmailRow(label: 'Zelle to: ', email: _zelleEmail),
-          const _EmailRow(label: 'PayPal to: ', email: _paypalEmail),
-          const _LinkRow(
-            label: 'Stripe: ',
-            linkText: 'donate.stripe.com',
-            url: _stripeUrl,
-          ),
-          const _LinkRow(
-            label: 'Telegram wallet: ',
-            linkText: 't.me/polina_314159',
-            url: _telegramWalletUrl,
-          ),
-          const _LinkRow(
-            label: 'Wise: ',
-            linkText: 'wise.com/pay/me/polinac182',
-            url: _wiseUrl,
-          ),
+          for (final channel in _channels) _ChannelRow(channel),
           RawText(_copyScript),
         ]),
       ),
@@ -90,54 +91,63 @@ class Pay extends StatelessComponent {
   }
 }
 
-/// A "label + email" line with a copy button (⎘) to its right.
-class _EmailRow extends StatelessComponent {
-  const _EmailRow({required this.label, required this.email});
+/// Renders one payment channel: its title, an optional link or copyable id,
+/// an optional description and an optional QR code.
+class _ChannelRow extends StatelessComponent {
+  const _ChannelRow(this.channel);
 
-  final String label;
-  final String email;
+  final _PaymentChannel channel;
 
   @override
   Component build(BuildContext context) {
-    return div(classes: 'pay-row', [
-      span([Component.text('$label$email')]),
-      button(
-        classes: 'copy-btn',
-        attributes: {
-          'type': 'button',
-          'title': 'Copy $email',
-          'aria-label': 'Copy $email',
-          'onclick': "copyEmail(this,'$email')",
-        },
-        [Component.text('⎘')], // ⎘ U+2398
-      ),
+    final id = channel.id;
+    final link = channel.link;
+
+    // The main value: a link (labeled by the id or a cleaned url) or plain id.
+    Component? value;
+    if (link != null) {
+      value = a(
+        href: link,
+        attributes: const {'target': '_blank', 'rel': 'noopener noreferrer'},
+        [Component.text(id ?? _cleanUrl(link))],
+      );
+    } else if (id != null) {
+      value = span([Component.text(id)]);
+    }
+
+    return div(classes: 'pay-channel', [
+      div(classes: 'pay-row', [
+        span([Component.text('${channel.title}: ')]),
+        if (value != null) value,
+        if (id != null) _copyButton(id),
+      ]),
+      if (channel.description != null) div(classes: 'pay-desc', [Component.text(channel.description!)]),
+      if (channel.qr != null)
+        div(classes: 'pay-qr', [
+          img(src: channel.qr!, alt: '${channel.title} QR code'),
+        ]),
     ]);
   }
 }
 
-/// A "label + link" line pointing to an external payment/donation page.
-class _LinkRow extends StatelessComponent {
-  const _LinkRow({
-    required this.label,
-    required this.linkText,
-    required this.url,
-  });
+/// A ⎘ (U+2398) button that copies [value] to the clipboard.
+Component _copyButton(String value) => button(
+  classes: 'copy-btn',
+  attributes: {
+    'type': 'button',
+    'title': 'Copy $value',
+    'aria-label': 'Copy $value',
+    'onclick': "copyEmail(this,'$value')",
+  },
+  [Component.text('⎘')], // ⎘ U+2398
+);
 
-  final String label;
-  final String linkText;
-  final String url;
-
-  @override
-  Component build(BuildContext context) {
-    return div(classes: 'pay-row', [
-      span([Component.text(label)]),
-      a(
-        href: url,
-        attributes: const {'target': '_blank', 'rel': 'noopener noreferrer'},
-        [Component.text(linkText)],
-      ),
-    ]);
-  }
+/// Strips the scheme and query string from [url] for display.
+String _cleanUrl(String url) {
+  var s = url.replaceFirst(RegExp(r'^https?://'), '');
+  final q = s.indexOf('?');
+  if (q != -1) s = s.substring(0, q);
+  return s;
 }
 
 const _copyScript = '''
