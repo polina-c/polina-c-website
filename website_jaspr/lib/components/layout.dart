@@ -19,16 +19,19 @@ class AppColumn extends StatelessComponent {
 }
 
 /// A rounded, fixed-width image, mirroring the Flutter app's `AppImage`.
+///
+/// When [circle] is true, the image is cropped to a circle.
 class AppImage extends StatelessComponent {
-  const AppImage(this.width, this.fileName, {super.key});
+  const AppImage(this.width, this.fileName, {this.circle = false, super.key});
 
   final double width;
   final String fileName;
+  final bool circle;
 
   @override
   Component build(BuildContext context) {
     return div(
-      classes: 'app-image',
+      classes: circle ? 'app-image circle' : 'app-image',
       styles: Styles(width: width.px),
       [img(src: '/images/$fileName', alt: '')],
     );

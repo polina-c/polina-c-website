@@ -17,7 +17,7 @@ class Home extends StatelessComponent {
       child: div(classes: 'screen', [
         div(classes: 'wrap', [
           const AppColumn(width: 300, child: AppMarkdown(_text1)),
-          const AppImage(300, 'polina.jpg'),
+          const AppImage(300, 'polina.jpg', circle: true),
         ]),
         const AppColumn(child: AppMarkdown(_text2)),
         const Contacts(),
