@@ -5,8 +5,28 @@ import '../components/layout.dart';
 import '../components/scaffold.dart';
 import '../constants/routes.dart';
 
-const _email = 'polina.c@live.com';
+const _zelleEmail = 'polina.c@live.com';
+const _paypalEmail = 'polina.c@live.com';
+const _stripeUrl = 'https://buy.stripe.com/5kQaEW8sa9fC4uk08caZi02';
+const _telegramWalletUrl = 'https://t.me/polina_314159';
+const _telegramName = '@polina_314159';
+const _wiseUrl = 'https://wise.com/pay/me/polinac182?utm_source=request_flow';
+const _wizeQrUrl = 'https://live.staticflickr.com/65535/55374435663_e9bf818107_q.jpg';
+const _venmoName = '@Polina-Cherkasova';
+const _venmoUrl = 'https://venmo.com/code?user_id=1643562064150528522';
+const _venmoQrUrl = 'https://live.staticflickr.com/65535/55374506039_0b8a81c122_q.jpg';
+const _ruCardNumber = '2200 7008 8827 2415';
+const _ruCardDescription = 'Полина Черкасова, ТБанк';
 
+/// Shows options to send money to Polina.
+///
+/// Options are:
+///
+/// * Zelle: to [_email]
+/// * PayPal: to [_email]
+/// * Stripe: [_stripeUrl]
+/// * Telegram wallet: [_telegramWalletUrl]
+/// * Wise: [_wiseUrl]
 class Pay extends StatelessComponent {
   const Pay({super.key});
 
@@ -18,8 +38,23 @@ class Pay extends StatelessComponent {
         child: div(classes: 'pay', [
           p([Component.text('Options to send me money:')]),
           div(classes: 'spacer', []),
-          const _EmailRow(label: 'Zelle to: '),
-          const _EmailRow(label: 'PayPal to: '),
+          const _EmailRow(label: 'Zelle to: ', email: _email),
+          const _EmailRow(label: 'PayPal to: ', email: _email),
+          const _LinkRow(
+            label: 'Stripe: ',
+            linkText: 'donate.stripe.com',
+            url: _stripeUrl,
+          ),
+          const _LinkRow(
+            label: 'Telegram wallet: ',
+            linkText: 't.me/polina_314159',
+            url: _telegramWalletUrl,
+          ),
+          const _LinkRow(
+            label: 'Wise: ',
+            linkText: 'wise.com/pay/me/polinac182',
+            url: _wiseUrl,
+          ),
           RawText(_copyScript),
         ]),
       ),
@@ -29,23 +64,49 @@ class Pay extends StatelessComponent {
 
 /// A "label + email" line with a copy button (⎘) to its right.
 class _EmailRow extends StatelessComponent {
-  const _EmailRow({required this.label});
+  const _EmailRow({required this.label, required this.email});
 
   final String label;
+  final String email;
 
   @override
   Component build(BuildContext context) {
     return div(classes: 'pay-row', [
-      span([Component.text('$label$_email')]),
+      span([Component.text('$label$email')]),
       button(
         classes: 'copy-btn',
         attributes: {
           'type': 'button',
-          'title': 'Copy $_email',
-          'aria-label': 'Copy $_email',
-          'onclick': "copyEmail(this,'$_email')",
+          'title': 'Copy $email',
+          'aria-label': 'Copy $email',
+          'onclick': "copyEmail(this,'$email')",
         },
         [Component.text('⎘')], // ⎘ U+2398
+      ),
+    ]);
+  }
+}
+
+/// A "label + link" line pointing to an external payment/donation page.
+class _LinkRow extends StatelessComponent {
+  const _LinkRow({
+    required this.label,
+    required this.linkText,
+    required this.url,
+  });
+
+  final String label;
+  final String linkText;
+  final String url;
+
+  @override
+  Component build(BuildContext context) {
+    return div(classes: 'pay-row', [
+      span([Component.text(label)]),
+      a(
+        href: url,
+        attributes: const {'target': '_blank', 'rel': 'noopener noreferrer'},
+        [Component.text(linkText)],
       ),
     ]);
   }
