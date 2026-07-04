@@ -18,7 +18,7 @@ const _venmoQrUrl = 'https://live.staticflickr.com/65535/55374506039_0b8a81c122_
 const _ruCardNumber = '2200 7008 8827 2415';
 const _ruCardDescription = 'Полина Черкасова, ТБанк';
 
-final _channels = [];
+final _channels = <_PaymentChannel>[];
 
 /// A single way to send money to Polina (Zelle, PayPal, Stripe, Wise, ...).
 class _PaymentChannel {
