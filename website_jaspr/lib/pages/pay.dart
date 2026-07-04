@@ -80,10 +80,11 @@ class Pay extends StatelessComponent {
     return AppScaffold(
       route: AppRoutes.pay,
       child: AppColumn(
+        width: 700,
         child: div(classes: 'pay', [
-          p([Component.text('Options to send me money:')]),
+          h1([Component.text('Options to send me money')]),
           div(classes: 'spacer', []),
-          for (final channel in _channels) _ChannelRow(channel),
+          for (final channel in _channels) _PaymentChannelView(channel),
           RawText(_copyScript),
         ]),
       ),
@@ -91,10 +92,10 @@ class Pay extends StatelessComponent {
   }
 }
 
-/// Renders one payment channel: its title, an optional link or copyable id,
-/// an optional description and an optional QR code.
-class _ChannelRow extends StatelessComponent {
-  const _ChannelRow(this.channel);
+/// Visualizes a single [_PaymentChannel]: its title, a copyable id, a clickable
+/// and copyable link, an optional description and an optional QR code.
+class _PaymentChannelView extends StatelessComponent {
+  const _PaymentChannelView(this.channel);
 
   final _PaymentChannel channel;
 
@@ -103,24 +104,24 @@ class _ChannelRow extends StatelessComponent {
     final id = channel.id;
     final link = channel.link;
 
-    // The main value: a link (labeled by the id or a cleaned url) or plain id.
-    Component? value;
-    if (link != null) {
-      value = a(
-        href: link,
-        attributes: const {'target': '_blank', 'rel': 'noopener noreferrer'},
-        [Component.text(id ?? _cleanUrl(link))],
-      );
-    } else if (id != null) {
-      value = span([Component.text(id)]);
-    }
-
     return div(classes: 'pay-channel', [
-      div(classes: 'pay-row', [
-        span([Component.text('${channel.title}: ')]),
-        if (value != null) value,
-        if (id != null) _copyButton(id),
-      ]),
+      div(classes: 'pay-title', [Component.text(channel.title)]),
+      // The id is copyable.
+      if (id != null)
+        div(classes: 'pay-row', [
+          span([Component.text(id)]),
+          _copyButton(id),
+        ]),
+      // The link is clickable and copyable.
+      if (link != null)
+        div(classes: 'pay-row', [
+          a(
+            href: link,
+            attributes: const {'target': '_blank', 'rel': 'noopener noreferrer'},
+            [Component.text(_cleanUrl(link))],
+          ),
+          _copyButton(link),
+        ]),
       if (channel.description != null) div(classes: 'pay-desc', [Component.text(channel.description!)]),
       if (channel.qr != null)
         div(classes: 'pay-qr', [
