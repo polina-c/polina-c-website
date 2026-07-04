@@ -31,10 +31,11 @@ const _text1 = '''
 
 I am a software engineer, energy practitioner, and mom of grown children.
 I am from Saint Petersburg, Russia, currently living in
-Kirkland, WA, US and Hawaii, Molokai.
+Kirkland, WA, US.
 ''';
 
-const _text2 = '''
+const _text2 =
+    '''
 ## Software Engineer
 
 I am a proud member of the [Flutter](https://flutter.dev) team in Google.
