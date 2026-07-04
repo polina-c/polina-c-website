@@ -143,13 +143,8 @@ Component _copyButton(String value) => button(
   [Component.text('⎘')], // ⎘ U+2398
 );
 
-/// Strips the scheme and query string from [url] for display.
-String _cleanUrl(String url) {
-  var s = url.replaceFirst(RegExp(r'^https?://'), '');
-  final q = s.indexOf('?');
-  if (q != -1) s = s.substring(0, q);
-  return s;
-}
+/// Strips the scheme from [url] for display, keeping the path and query.
+String _cleanUrl(String url) => url.replaceFirst(RegExp(r'^https?://'), '');
 
 const _copyScript = '''
 <script>
