@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "public": "build/jaspr",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/packages/**",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

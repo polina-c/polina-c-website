@@ -17,5 +17,12 @@
             "request": "launch",
             "type": "dart"
         },
+        {
+            "name": "website_jaspr",
+            "cwd": "website_jaspr",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.server.dart"
+        },
     ]
 }

@@ -4,6 +4,7 @@ import 'package:url_strategy/url_strategy.dart';
 
 import 'screens/home.dart';
 import 'screens/molokai.dart';
+import 'screens/pay.dart';
 import 'shared/design/theme.dart';
 import 'shared/framework/app_structure.dart';
 import 'shared/framework/scaffold.dart';
@@ -11,6 +12,7 @@ import 'shared/framework/scaffold.dart';
 final _screens = <String, WidgetBuilder>{
   AppRoutes.home: homeScreen,
   AppRoutes.molokai: molokaiScreen,
+  AppRoutes.pay: payScreen,
 };
 
 void main() async {

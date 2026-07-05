@@ -10,7 +10,7 @@ class Contacts extends StatelessWidget {
   Widget build(BuildContext context) {
     return const AppColumn(
       child: AppMarkdown('''
-## Connect with me
+## My contacts
 
 [Telegram](http://t.me/polina_314159),
 [Facebook](https://www.facebook.com/polina.cherkasova),
