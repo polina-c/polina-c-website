@@ -32,6 +32,7 @@ void main() {
       link(rel: 'apple-touch-icon', href: '/icons/Icon-192.png'),
       link(rel: 'manifest', href: '/manifest.json'),
       link(rel: 'stylesheet', href: '/styles.css'),
+      script(src: '/copy.js', defer: true),
     ],
     body: const App(),
   ));

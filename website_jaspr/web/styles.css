@@ -259,6 +259,23 @@ a {
   color: #2e7d32;
 }
 
+/* ---------- Contacts ---------- */
+
+.contacts h2 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 1.4em 0 0.3em;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+}
+
 /* ---------- Home link (molokai -> home) ---------- */
 
 .home-link {

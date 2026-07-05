@@ -1,6 +1,7 @@
 import 'package:jaspr/dom.dart';
 import 'package:jaspr/jaspr.dart';
 
+import '../components/copyable.dart';
 import '../components/layout.dart';
 import '../components/scaffold.dart';
 import '../constants/routes.dart';
@@ -85,7 +86,6 @@ class Pay extends StatelessComponent {
           h1([Component.text('Options to send me money')]),
           div(classes: 'spacer', []),
           for (final channel in _channels) _PaymentChannelView(channel),
-          RawText(_copyScript),
         ]),
       ),
     );
@@ -110,17 +110,12 @@ class _PaymentChannelView extends StatelessComponent {
       if (id != null)
         div(classes: 'pay-row', [
           span([Component.text(id)]),
-          _copyButton(id),
+          CopyButton(id),
         ]),
       // The link is clickable and copyable.
       if (link != null)
         div(classes: 'pay-row', [
-          a(
-            href: link,
-            attributes: const {'target': '_blank', 'rel': 'noopener noreferrer'},
-            [Component.text(_cleanUrl(link))],
-          ),
-          _copyButton(link),
+          CopyableLink(url: link, text: _cleanUrl(link)),
         ]),
       if (channel.description != null) div(classes: 'pay-desc', [Component.text(channel.description!)]),
       if (channel.qr != null)
@@ -131,51 +126,5 @@ class _PaymentChannelView extends StatelessComponent {
   }
 }
 
-/// A ⎘ (U+2398) button that copies [value] to the clipboard.
-Component _copyButton(String value) => button(
-  classes: 'copy-btn',
-  attributes: {
-    'type': 'button',
-    'title': 'Copy $value',
-    'aria-label': 'Copy $value',
-    'onclick': "copyEmail(this,'$value')",
-  },
-  [Component.text('⎘')], // ⎘ U+2398
-);
-
 /// Strips the scheme from [url] for display, keeping the path and query.
 String _cleanUrl(String url) => url.replaceFirst(RegExp(r'^https?://'), '');
-
-const _copyScript = '''
-<script>
-function copyEmail(btn, email) {
-  function confirm() {
-    btn.textContent = '✓'; // ✓
-    btn.classList.add('copied');
-    setTimeout(function () {
-      btn.textContent = '⎘'; // ⎘
-      btn.classList.remove('copied');
-    }, 1200);
-  }
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(email).then(confirm, function () {
-      fallbackCopy(email);
-      confirm();
-    });
-  } else {
-    fallbackCopy(email);
-    confirm();
-  }
-}
-function fallbackCopy(text) {
-  var ta = document.createElement('textarea');
-  ta.value = text;
-  ta.style.position = 'fixed';
-  ta.style.opacity = '0';
-  document.body.appendChild(ta);
-  ta.select();
-  try { document.execCommand('copy'); } catch (e) {}
-  document.body.removeChild(ta);
-}
-</script>
-''';

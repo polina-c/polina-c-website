@@ -36,6 +36,23 @@ Kirkland, WA, US.
 
 const _text2 =
     '''
+## Energy Practitioner and Researcher
+
+* Constellations facilitator and shaman
+* Author of [The Field](https://www.amazon.com/dp/B0G4FS4JL4) /
+[Поле](https://docs.google.com/document/d/1wfT5f0Y98_wDo-FqqqTAowRbxZsnPZUWYJ_w61JqNBo/edit?usp=sharing)
+
+![The Field](https://live.staticflickr.com/65535/54974095107_2004b853d7_t.jpg)
+
+My channels:
+
+* [Planned groups](https://the-field.world/master/polina-cherkasova)
+* [Online field calendar](https://the-field.world) where you can announce your field related events
+* [IPASC profile](https://ipasc.org/primary/polina-cherkasova)
+* Телеграм канал [the-field.world с Полиной](https://t.me/the_field_world_ru)
+
+Contact me directly schedule a 1:1 session (see contacts below).
+
 ## Software Engineer
 
 I am a proud member of the [Flutter](https://flutter.dev) team in Google.
@@ -49,18 +66,6 @@ I am creator of
 [LayerLens](https://pub.dev/packages/layerlens)
 and [Leak Tracker](https://github.com/dart-lang/leak_tracker/blob/main/doc/leak_tracking/OVERVIEW.md).
 And, at the moment I am in the team that is putting together [GenUI SDK](https://github.com/flutter/genui).
-
-## Energy Practitioner
-
-* Author of [The Field](https://www.amazon.com/dp/B0G4FS4JL4) /
-[Поле](https://docs.google.com/document/d/1wfT5f0Y98_wDo-FqqqTAowRbxZsnPZUWYJ_w61JqNBo/edit?usp=sharing)
-
-![The Field](https://live.staticflickr.com/65535/54974095107_2004b853d7_t.jpg)
-
-* Creator of the web calendar [the-field.world](https://the-field.world)
-* Host of the Telegram channel [the-field.world](https://t.me/the_field_world)
-* Student in [Open Field Institute](https://openfield.ru)
-* Creator of [Happy Creek](https://happy-creek.com)
 
 ## Judge at Yearly Oral Math Olympiad
 
