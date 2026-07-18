@@ -22,7 +22,10 @@
             "cwd": "website_jaspr",
             "request": "launch",
             "type": "dart",
-            "program": "lib/main.server.dart"
+            "program": "lib/main.server.dart",
+            "env": {
+                "PORT": "8081"
+            }
         },
     ]
 }
