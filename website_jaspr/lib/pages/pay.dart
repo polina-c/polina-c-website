@@ -46,24 +46,26 @@ const _channels = <_PaymentChannel>[
     qr: 'https://live.staticflickr.com/65535/55374801410_9cb24ff4de_q.jpg',
   ),
   _PaymentChannel(
+    title: 'Venmo',
+    id: '@Polina-Cherkasova',
+    link: 'https://venmo.com/code?user_id=1643562064150528522',
+    qr: 'https://live.staticflickr.com/65535/55374506039_0b8a81c122_q.jpg',
+  ),
+  _PaymentChannel(
     title: 'Stripe',
     link: 'https://buy.stripe.com/5kQaEW8sa9fC4uk08caZi02',
+    qr: 'https://live.staticflickr.com/65535/55401311208_88cf86de3d_q.jpg',
   ),
   _PaymentChannel(
     title: 'Telegram wallet',
     id: '@polina_314159',
     link: 'https://t.me/polina_314159',
+    qr: 'https://live.staticflickr.com/65535/55401311203_767ab94397_q.jpg',
   ),
   _PaymentChannel(
     title: 'Wise',
-    link: 'https://wise.com/pay/me/polinac182?utm_source=request_flow',
+    link: 'https://wise.com/pay/me/polinac182',
     qr: 'https://live.staticflickr.com/65535/55374435663_e9bf818107_q.jpg',
-  ),
-  _PaymentChannel(
-    title: 'Venmo',
-    id: '@Polina-Cherkasova',
-    link: 'https://venmo.com/code?user_id=1643562064150528522',
-    qr: 'https://live.staticflickr.com/65535/55374506039_0b8a81c122_q.jpg',
   ),
   _PaymentChannel(
     title: 'Russian card',
